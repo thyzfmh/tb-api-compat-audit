@@ -1,0 +1,12 @@
+# Binaries
+audit/gozerogen/gozerogen
+
+# Backup / intermediate artifacts
+audit/go_zero_full_backup.json
+
+# OS
+.DS_Store
+
+# Kubernetes / taibai_api source trees (not part of this audit repo)
+/kubernetes/
+/taibai_api/

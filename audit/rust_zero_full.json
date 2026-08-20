@@ -1,0 +1,2671 @@
+{
+  "admission/v1::AdmissionRequest": {
+    "kind": {},
+    "operation": "",
+    "resource": {},
+    "uid": "",
+    "userInfo": {}
+  },
+  "admission/v1::AdmissionResponse": {
+    "allowed": false,
+    "uid": ""
+  },
+  "admission/v1::AdmissionReview": {},
+  "admission/v1beta1::AdmissionRequest": {
+    "kind": {},
+    "operation": "",
+    "resource": {},
+    "uid": "",
+    "userInfo": {}
+  },
+  "admission/v1beta1::AdmissionResponse": {
+    "allowed": false,
+    "uid": ""
+  },
+  "admission/v1beta1::AdmissionReview": {},
+  "admissionregistration/v1::AuditAnnotation": {},
+  "admissionregistration/v1::ExpressionWarning": {},
+  "admissionregistration/v1::MatchCondition": {},
+  "admissionregistration/v1::MatchResources": {},
+  "admissionregistration/v1::MutatingWebhook": {
+    "clientConfig": {}
+  },
+  "admissionregistration/v1::MutatingWebhookConfiguration": {},
+  "admissionregistration/v1::MutatingWebhookConfigurationList": {},
+  "admissionregistration/v1::NamedRuleWithOperations": {},
+  "admissionregistration/v1::ParamKind": {},
+  "admissionregistration/v1::ParamRef": {},
+  "admissionregistration/v1::Rule": {},
+  "admissionregistration/v1::RuleWithOperations": {},
+  "admissionregistration/v1::ServiceReference": {},
+  "admissionregistration/v1::TypeChecking": {},
+  "admissionregistration/v1::ValidatingAdmissionPolicy": {
+    "spec": {},
+    "status": {
+      "observedGeneration": 0
+    }
+  },
+  "admissionregistration/v1::ValidatingAdmissionPolicyBinding": {
+    "spec": {}
+  },
+  "admissionregistration/v1::ValidatingAdmissionPolicyBindingList": {},
+  "admissionregistration/v1::ValidatingAdmissionPolicyBindingSpec": {},
+  "admissionregistration/v1::ValidatingAdmissionPolicyList": {},
+  "admissionregistration/v1::ValidatingAdmissionPolicySpec": {},
+  "admissionregistration/v1::ValidatingAdmissionPolicyStatus": {
+    "observedGeneration": 0
+  },
+  "admissionregistration/v1::ValidatingWebhook": {
+    "clientConfig": {}
+  },
+  "admissionregistration/v1::ValidatingWebhookConfiguration": {},
+  "admissionregistration/v1::ValidatingWebhookConfigurationList": {},
+  "admissionregistration/v1::Validation": {},
+  "admissionregistration/v1::Variable": {},
+  "admissionregistration/v1::WebhookClientConfig": {},
+  "admissionregistration/v1alpha1::ApplyConfiguration": {},
+  "admissionregistration/v1alpha1::JSONPatch": {},
+  "admissionregistration/v1alpha1::MutatingAdmissionPolicy": {
+    "spec": {
+      "reinvocationPolicy": "Never"
+    }
+  },
+  "admissionregistration/v1alpha1::MutatingAdmissionPolicyBinding": {
+    "spec": {}
+  },
+  "admissionregistration/v1alpha1::MutatingAdmissionPolicyBindingList": {},
+  "admissionregistration/v1alpha1::MutatingAdmissionPolicyBindingSpec": {},
+  "admissionregistration/v1alpha1::MutatingAdmissionPolicyList": {},
+  "admissionregistration/v1alpha1::MutatingAdmissionPolicySpec": {
+    "reinvocationPolicy": "Never"
+  },
+  "admissionregistration/v1alpha1::Mutation": {
+    "patchType": "ApplyConfiguration"
+  },
+  "admissionregistration/v1alpha1::ValidatingAdmissionPolicy": {
+    "spec": {},
+    "status": {
+      "observedGeneration": 0
+    }
+  },
+  "admissionregistration/v1alpha1::ValidatingAdmissionPolicyBinding": {
+    "spec": {}
+  },
+  "admissionregistration/v1alpha1::ValidatingAdmissionPolicyBindingList": {},
+  "admissionregistration/v1alpha1::ValidatingAdmissionPolicyBindingSpec": {},
+  "admissionregistration/v1alpha1::ValidatingAdmissionPolicyList": {},
+  "admissionregistration/v1alpha1::ValidatingAdmissionPolicySpec": {},
+  "admissionregistration/v1alpha1::ValidatingAdmissionPolicyStatus": {
+    "observedGeneration": 0
+  },
+  "admissionregistration/v1alpha1::Validation": {},
+  "admissionregistration/v1beta1::ApplyConfiguration": {},
+  "admissionregistration/v1beta1::JSONPatch": {},
+  "admissionregistration/v1beta1::MutatingAdmissionPolicy": {
+    "metadata": {},
+    "spec": {
+      "reinvocationPolicy": "Never"
+    }
+  },
+  "admissionregistration/v1beta1::MutatingAdmissionPolicyBinding": {
+    "metadata": {},
+    "spec": {}
+  },
+  "admissionregistration/v1beta1::MutatingAdmissionPolicyBindingList": {
+    "metadata": {}
+  },
+  "admissionregistration/v1beta1::MutatingAdmissionPolicyBindingSpec": {},
+  "admissionregistration/v1beta1::MutatingAdmissionPolicyList": {
+    "metadata": {}
+  },
+  "admissionregistration/v1beta1::MutatingAdmissionPolicySpec": {
+    "reinvocationPolicy": "Never"
+  },
+  "admissionregistration/v1beta1::Mutation": {
+    "patchType": "ApplyConfiguration"
+  },
+  "apidiscovery/v2::APIGroupDiscovery": {},
+  "apidiscovery/v2::APIGroupDiscoveryList": {
+    "items": []
+  },
+  "apidiscovery/v2::APIResourceDiscovery": {
+    "scope": "Cluster"
+  },
+  "apidiscovery/v2::APISubresourceDiscovery": {},
+  "apidiscovery/v2::APIVersionDiscovery": {},
+  "apidiscovery/v2beta1::APIGroupDiscovery": {},
+  "apidiscovery/v2beta1::APIGroupDiscoveryList": {
+    "items": []
+  },
+  "apidiscovery/v2beta1::APIResourceDiscovery": {
+    "scope": "Cluster"
+  },
+  "apidiscovery/v2beta1::APISubresourceDiscovery": {},
+  "apidiscovery/v2beta1::APIVersionDiscovery": {},
+  "apiextensions/v1::ConversionRequest": {},
+  "apiextensions/v1::ConversionResponse": {
+    "result": {}
+  },
+  "apiextensions/v1::ConversionReview": {},
+  "apiextensions/v1::CustomResourceColumnDefinition": {
+    "priority": 0
+  },
+  "apiextensions/v1::CustomResourceConversion": {
+    "strategy": "None"
+  },
+  "apiextensions/v1::CustomResourceDefinition": {
+    "spec": {
+      "names": {},
+      "scope": "Namespaced"
+    },
+    "status": {
+      "acceptedNames": {}
+    }
+  },
+  "apiextensions/v1::CustomResourceDefinitionCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apiextensions/v1::CustomResourceDefinitionList": {},
+  "apiextensions/v1::CustomResourceDefinitionNames": {},
+  "apiextensions/v1::CustomResourceDefinitionSpec": {
+    "names": {},
+    "scope": "Namespaced"
+  },
+  "apiextensions/v1::CustomResourceDefinitionStatus": {
+    "acceptedNames": {}
+  },
+  "apiextensions/v1::CustomResourceDefinitionVersion": {
+    "served": false,
+    "storage": false
+  },
+  "apiextensions/v1::CustomResourceSubresourceStatus": {},
+  "apiextensions/v1::CustomResourceSubresources": {},
+  "apiextensions/v1::CustomResourceValidation": {},
+  "apiextensions/v1::SelectableField": {},
+  "apiextensions/v1::ServiceReference": {},
+  "apiextensions/v1::WebhookClientConfig": {},
+  "apiextensions/v1::WebhookConversion": {},
+  "apiextensions/v1beta1::ConversionRequest": {},
+  "apiextensions/v1beta1::ConversionResponse": {
+    "result": {}
+  },
+  "apiextensions/v1beta1::ConversionReview": {},
+  "apiextensions/v1beta1::CustomResourceColumnDefinition": {
+    "priority": 0
+  },
+  "apiextensions/v1beta1::CustomResourceConversion": {
+    "strategy": "None"
+  },
+  "apiextensions/v1beta1::CustomResourceDefinition": {
+    "spec": {
+      "names": {},
+      "scope": "Namespaced"
+    },
+    "status": {
+      "acceptedNames": {}
+    }
+  },
+  "apiextensions/v1beta1::CustomResourceDefinitionCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apiextensions/v1beta1::CustomResourceDefinitionList": {},
+  "apiextensions/v1beta1::CustomResourceDefinitionNames": {},
+  "apiextensions/v1beta1::CustomResourceDefinitionSpec": {
+    "names": {},
+    "scope": "Namespaced"
+  },
+  "apiextensions/v1beta1::CustomResourceDefinitionStatus": {
+    "acceptedNames": {}
+  },
+  "apiextensions/v1beta1::CustomResourceDefinitionVersion": {
+    "served": false,
+    "storage": false
+  },
+  "apiextensions/v1beta1::CustomResourceSubresourceStatus": {},
+  "apiextensions/v1beta1::CustomResourceSubresources": {},
+  "apiextensions/v1beta1::CustomResourceValidation": {},
+  "apiextensions/v1beta1::SelectableField": {},
+  "apiextensions/v1beta1::ServiceReference": {},
+  "apiextensions/v1beta1::WebhookClientConfig": {},
+  "apiextensions::ExternalDocumentation": {},
+  "apiextensions::JSONSchemaProps": {},
+  "apiextensions::ValidationRule": {},
+  "apiregistration/v1::APIService": {
+    "spec": {
+      "groupPriorityMinimum": 0,
+      "versionPriority": 0
+    },
+    "status": {}
+  },
+  "apiregistration/v1::APIServiceCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apiregistration/v1::APIServiceList": {},
+  "apiregistration/v1::APIServiceSpec": {
+    "groupPriorityMinimum": 0,
+    "versionPriority": 0
+  },
+  "apiregistration/v1::APIServiceStatus": {},
+  "apiregistration/v1::ServiceReference": {},
+  "apiregistration/v1beta1::APIService": {
+    "spec": {
+      "groupPriorityMinimum": 0,
+      "versionPriority": 0
+    },
+    "status": {}
+  },
+  "apiregistration/v1beta1::APIServiceCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apiregistration/v1beta1::APIServiceList": {},
+  "apiregistration/v1beta1::APIServiceSpec": {
+    "groupPriorityMinimum": 0,
+    "versionPriority": 0
+  },
+  "apiregistration/v1beta1::APIServiceStatus": {},
+  "apiregistration/v1beta1::ServiceReference": {},
+  "apiserverinternal/v1alpha1::ConditionStatus": "",
+  "apiserverinternal/v1alpha1::ServerStorageVersion": {},
+  "apiserverinternal/v1alpha1::StorageVersion": {
+    "spec": {},
+    "status": {}
+  },
+  "apiserverinternal/v1alpha1::StorageVersionCondition": {
+    "reason": "",
+    "status": "",
+    "type": ""
+  },
+  "apiserverinternal/v1alpha1::StorageVersionConditionType": "",
+  "apiserverinternal/v1alpha1::StorageVersionList": {
+    "items": []
+  },
+  "apiserverinternal/v1alpha1::StorageVersionSpec": {},
+  "apps/v1::ControllerRevision": {
+    "data": null,
+    "revision": 0
+  },
+  "apps/v1::ControllerRevisionList": {
+    "items": []
+  },
+  "apps/v1::DaemonSet": {},
+  "apps/v1::DaemonSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1::DaemonSetList": {
+    "items": []
+  },
+  "apps/v1::DaemonSetSpec": {},
+  "apps/v1::DaemonSetStatus": {
+    "currentNumberScheduled": 0,
+    "desiredNumberScheduled": 0,
+    "numberMisscheduled": 0,
+    "numberReady": 0
+  },
+  "apps/v1::DaemonSetUpdateStrategy": {},
+  "apps/v1::Deployment": {},
+  "apps/v1::DeploymentCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1::DeploymentList": {
+    "items": []
+  },
+  "apps/v1::DeploymentSpec": {},
+  "apps/v1::DeploymentStatus": {},
+  "apps/v1::DeploymentStrategy": {},
+  "apps/v1::ReplicaSet": {},
+  "apps/v1::ReplicaSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1::ReplicaSetList": {
+    "items": []
+  },
+  "apps/v1::ReplicaSetSpec": {},
+  "apps/v1::ReplicaSetStatus": {
+    "replicas": 0
+  },
+  "apps/v1::RollingUpdateDaemonSet": {
+    "maxUnavailable": 1
+  },
+  "apps/v1::RollingUpdateDeployment": {
+    "maxSurge": "25%",
+    "maxUnavailable": "25%"
+  },
+  "apps/v1::RollingUpdateStatefulSetStrategy": {
+    "partition": 0
+  },
+  "apps/v1::StatefulSet": {},
+  "apps/v1::StatefulSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1::StatefulSetList": {
+    "items": []
+  },
+  "apps/v1::StatefulSetOrdinals": {},
+  "apps/v1::StatefulSetPersistentVolumeClaimRetentionPolicy": {},
+  "apps/v1::StatefulSetSpec": {
+    "serviceName": ""
+  },
+  "apps/v1::StatefulSetStatus": {
+    "availableReplicas": 0,
+    "replicas": 0
+  },
+  "apps/v1::StatefulSetUpdateStrategy": {},
+  "apps/v1beta1::ControllerRevision": {
+    "data": null,
+    "revision": 0
+  },
+  "apps/v1beta1::ControllerRevisionList": {
+    "items": []
+  },
+  "apps/v1beta1::Deployment": {},
+  "apps/v1beta1::DeploymentCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1beta1::DeploymentList": {
+    "items": []
+  },
+  "apps/v1beta1::DeploymentRollback": {
+    "name": "",
+    "rollbackTo": {}
+  },
+  "apps/v1beta1::DeploymentSpec": {},
+  "apps/v1beta1::DeploymentStatus": {},
+  "apps/v1beta1::DeploymentStrategy": {},
+  "apps/v1beta1::RollbackConfig": {},
+  "apps/v1beta1::RollingUpdateDeployment": {
+    "maxSurge": "25%",
+    "maxUnavailable": "25%"
+  },
+  "apps/v1beta1::RollingUpdateStatefulSetStrategy": {
+    "partition": 0
+  },
+  "apps/v1beta1::Scale": {},
+  "apps/v1beta1::ScaleSpec": {},
+  "apps/v1beta1::ScaleStatus": {
+    "replicas": 0
+  },
+  "apps/v1beta1::StatefulSet": {},
+  "apps/v1beta1::StatefulSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1beta1::StatefulSetList": {
+    "items": []
+  },
+  "apps/v1beta1::StatefulSetOrdinals": {},
+  "apps/v1beta1::StatefulSetPersistentVolumeClaimRetentionPolicy": {},
+  "apps/v1beta1::StatefulSetSpec": {
+    "serviceName": ""
+  },
+  "apps/v1beta1::StatefulSetStatus": {
+    "availableReplicas": 0,
+    "replicas": 0
+  },
+  "apps/v1beta1::StatefulSetUpdateStrategy": {},
+  "apps/v1beta2::ControllerRevision": {
+    "data": null,
+    "revision": 0
+  },
+  "apps/v1beta2::ControllerRevisionList": {
+    "items": []
+  },
+  "apps/v1beta2::DaemonSet": {},
+  "apps/v1beta2::DaemonSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1beta2::DaemonSetList": {
+    "items": []
+  },
+  "apps/v1beta2::DaemonSetSpec": {},
+  "apps/v1beta2::DaemonSetStatus": {
+    "currentNumberScheduled": 0,
+    "desiredNumberScheduled": 0,
+    "numberMisscheduled": 0,
+    "numberReady": 0
+  },
+  "apps/v1beta2::DaemonSetUpdateStrategy": {},
+  "apps/v1beta2::Deployment": {},
+  "apps/v1beta2::DeploymentCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1beta2::DeploymentList": {
+    "items": []
+  },
+  "apps/v1beta2::DeploymentSpec": {},
+  "apps/v1beta2::DeploymentStatus": {},
+  "apps/v1beta2::DeploymentStrategy": {},
+  "apps/v1beta2::ReplicaSet": {},
+  "apps/v1beta2::ReplicaSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1beta2::ReplicaSetList": {
+    "items": []
+  },
+  "apps/v1beta2::ReplicaSetSpec": {},
+  "apps/v1beta2::ReplicaSetStatus": {
+    "replicas": 0
+  },
+  "apps/v1beta2::RollingUpdateDaemonSet": {},
+  "apps/v1beta2::RollingUpdateDeployment": {},
+  "apps/v1beta2::RollingUpdateStatefulSetStrategy": {},
+  "apps/v1beta2::Scale": {},
+  "apps/v1beta2::ScaleSpec": {},
+  "apps/v1beta2::ScaleStatus": {
+    "replicas": 0
+  },
+  "apps/v1beta2::StatefulSet": {},
+  "apps/v1beta2::StatefulSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "apps/v1beta2::StatefulSetList": {
+    "items": []
+  },
+  "apps/v1beta2::StatefulSetOrdinals": {},
+  "apps/v1beta2::StatefulSetPersistentVolumeClaimRetentionPolicy": {},
+  "apps/v1beta2::StatefulSetSpec": {
+    "serviceName": ""
+  },
+  "apps/v1beta2::StatefulSetStatus": {
+    "availableReplicas": 0,
+    "replicas": 0
+  },
+  "apps/v1beta2::StatefulSetUpdateStrategy": {},
+  "authentication/v1::BoundObjectReference": {},
+  "authentication/v1::SelfSubjectReview": {},
+  "authentication/v1::SelfSubjectReviewStatus": {},
+  "authentication/v1::TokenRequest": {
+    "spec": {
+      "audiences": []
+    }
+  },
+  "authentication/v1::TokenRequestSpec": {
+    "audiences": []
+  },
+  "authentication/v1::TokenRequestStatus": {
+    "expirationTimestamp": null
+  },
+  "authentication/v1::TokenReview": {
+    "spec": {}
+  },
+  "authentication/v1::TokenReviewSpec": {},
+  "authentication/v1::TokenReviewStatus": {
+    "authenticated": false
+  },
+  "authentication/v1::UserInfo": {},
+  "authentication/v1alpha1::SelfSubjectReview": {},
+  "authentication/v1alpha1::SelfSubjectReviewStatus": {},
+  "authentication/v1beta1::SelfSubjectReview": {},
+  "authentication/v1beta1::SelfSubjectReviewStatus": {},
+  "authentication/v1beta1::TokenReview": {
+    "spec": {}
+  },
+  "authentication/v1beta1::TokenReviewSpec": {},
+  "authentication/v1beta1::TokenReviewStatus": {},
+  "authorization/v1::FieldSelectorAttributes": {},
+  "authorization/v1::LabelSelectorAttributes": {},
+  "authorization/v1::LocalSubjectAccessReview": {
+    "spec": {}
+  },
+  "authorization/v1::NonResourceAttributes": {},
+  "authorization/v1::NonResourceRule": {},
+  "authorization/v1::ResourceAttributes": {},
+  "authorization/v1::ResourceRule": {},
+  "authorization/v1::SelfSubjectAccessReview": {
+    "spec": {}
+  },
+  "authorization/v1::SelfSubjectAccessReviewSpec": {},
+  "authorization/v1::SelfSubjectRulesReview": {
+    "spec": {}
+  },
+  "authorization/v1::SelfSubjectRulesReviewSpec": {},
+  "authorization/v1::SubjectAccessReview": {
+    "spec": {}
+  },
+  "authorization/v1::SubjectAccessReviewSpec": {},
+  "authorization/v1::SubjectAccessReviewStatus": {
+    "allowed": false,
+    "denied": false
+  },
+  "authorization/v1::SubjectRulesReviewStatus": {
+    "incomplete": false
+  },
+  "authorization/v1beta1::FieldSelectorAttributes": {},
+  "authorization/v1beta1::LabelSelectorAttributes": {},
+  "authorization/v1beta1::LocalSubjectAccessReview": {
+    "spec": {}
+  },
+  "authorization/v1beta1::NonResourceAttributes": {},
+  "authorization/v1beta1::NonResourceRule": {},
+  "authorization/v1beta1::ResourceAttributes": {},
+  "authorization/v1beta1::ResourceRule": {},
+  "authorization/v1beta1::SelfSubjectAccessReview": {
+    "spec": {}
+  },
+  "authorization/v1beta1::SelfSubjectAccessReviewSpec": {},
+  "authorization/v1beta1::SelfSubjectRulesReview": {
+    "spec": {}
+  },
+  "authorization/v1beta1::SelfSubjectRulesReviewSpec": {},
+  "authorization/v1beta1::SubjectAccessReview": {
+    "spec": {}
+  },
+  "authorization/v1beta1::SubjectAccessReviewSpec": {},
+  "authorization/v1beta1::SubjectAccessReviewStatus": {
+    "allowed": false,
+    "denied": false
+  },
+  "authorization/v1beta1::SubjectRulesReviewStatus": {
+    "incomplete": false
+  },
+  "autoscaling/v1::ContainerResourceMetricSource": {
+    "container": "",
+    "name": ""
+  },
+  "autoscaling/v1::ContainerResourceMetricStatus": {
+    "container": "",
+    "currentAverageValue": "0",
+    "name": ""
+  },
+  "autoscaling/v1::CrossVersionObjectReference": {
+    "kind": "",
+    "name": ""
+  },
+  "autoscaling/v1::ExternalMetricSource": {
+    "metricName": ""
+  },
+  "autoscaling/v1::ExternalMetricStatus": {
+    "currentValue": "0",
+    "metricName": ""
+  },
+  "autoscaling/v1::HorizontalPodAutoscaler": {},
+  "autoscaling/v1::HorizontalPodAutoscalerCondition": {
+    "status": "",
+    "type": ""
+  },
+  "autoscaling/v1::HorizontalPodAutoscalerList": {},
+  "autoscaling/v1::HorizontalPodAutoscalerSpec": {
+    "maxReplicas": 0,
+    "scaleTargetRef": {
+      "kind": "",
+      "name": ""
+    }
+  },
+  "autoscaling/v1::HorizontalPodAutoscalerStatus": {
+    "currentReplicas": 0,
+    "desiredReplicas": 0
+  },
+  "autoscaling/v1::MetricSpec": {
+    "type": ""
+  },
+  "autoscaling/v1::MetricStatus": {
+    "type": ""
+  },
+  "autoscaling/v1::ObjectMetricSource": {
+    "metricName": "",
+    "target": {
+      "kind": "",
+      "name": ""
+    },
+    "targetValue": "0"
+  },
+  "autoscaling/v1::ObjectMetricStatus": {
+    "currentValue": "0",
+    "metricName": "",
+    "target": {
+      "kind": "",
+      "name": ""
+    }
+  },
+  "autoscaling/v1::PodsMetricSource": {
+    "metricName": "",
+    "targetAverageValue": "0"
+  },
+  "autoscaling/v1::PodsMetricStatus": {
+    "currentAverageValue": "0",
+    "metricName": ""
+  },
+  "autoscaling/v1::ResourceMetricSource": {
+    "name": ""
+  },
+  "autoscaling/v1::ResourceMetricStatus": {
+    "currentAverageValue": "0",
+    "name": ""
+  },
+  "autoscaling/v1::Scale": {},
+  "autoscaling/v1::ScaleSpec": {},
+  "autoscaling/v1::ScaleStatus": {
+    "replicas": 0
+  },
+  "autoscaling/v2::ContainerResourceMetricSource": {
+    "name": "",
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2::ContainerResourceMetricStatus": {
+    "current": {},
+    "name": ""
+  },
+  "autoscaling/v2::CrossVersionObjectReference": {
+    "kind": "",
+    "name": ""
+  },
+  "autoscaling/v2::ExternalMetricSource": {
+    "metric": {},
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2::ExternalMetricStatus": {
+    "current": {},
+    "metric": {}
+  },
+  "autoscaling/v2::HPAScalingPolicy": {
+    "periodSeconds": 0,
+    "type": "Pods",
+    "value": 0
+  },
+  "autoscaling/v2::HPAScalingRules": {},
+  "autoscaling/v2::HorizontalPodAutoscaler": {},
+  "autoscaling/v2::HorizontalPodAutoscalerBehavior": {},
+  "autoscaling/v2::HorizontalPodAutoscalerCondition": {
+    "status": "",
+    "type": ""
+  },
+  "autoscaling/v2::HorizontalPodAutoscalerList": {},
+  "autoscaling/v2::HorizontalPodAutoscalerSpec": {
+    "maxReplicas": 0,
+    "scaleTargetRef": {
+      "kind": "",
+      "name": ""
+    }
+  },
+  "autoscaling/v2::HorizontalPodAutoscalerStatus": {
+    "desiredReplicas": 0
+  },
+  "autoscaling/v2::MetricIdentifier": {},
+  "autoscaling/v2::MetricSpec": {
+    "type": ""
+  },
+  "autoscaling/v2::MetricStatus": {
+    "type": ""
+  },
+  "autoscaling/v2::MetricTarget": {
+    "type": "Utilization"
+  },
+  "autoscaling/v2::MetricValueStatus": {},
+  "autoscaling/v2::ObjectMetricSource": {
+    "describedObject": {
+      "kind": "",
+      "name": ""
+    },
+    "metric": {},
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2::ObjectMetricStatus": {
+    "current": {},
+    "describedObject": {
+      "kind": "",
+      "name": ""
+    },
+    "metric": {}
+  },
+  "autoscaling/v2::PodsMetricSource": {
+    "metric": {},
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2::PodsMetricStatus": {
+    "current": {},
+    "metric": {}
+  },
+  "autoscaling/v2::ResourceMetricSource": {
+    "name": "",
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2::ResourceMetricStatus": {
+    "current": {},
+    "name": ""
+  },
+  "autoscaling/v2beta1::ContainerResourceMetricSource": {
+    "name": ""
+  },
+  "autoscaling/v2beta1::ContainerResourceMetricStatus": {
+    "currentAverageValue": "0",
+    "name": ""
+  },
+  "autoscaling/v2beta1::CrossVersionObjectReference": {
+    "kind": "",
+    "name": ""
+  },
+  "autoscaling/v2beta1::ExternalMetricSource": {},
+  "autoscaling/v2beta1::ExternalMetricStatus": {
+    "currentValue": "0"
+  },
+  "autoscaling/v2beta1::HorizontalPodAutoscaler": {},
+  "autoscaling/v2beta1::HorizontalPodAutoscalerCondition": {
+    "status": "",
+    "type": ""
+  },
+  "autoscaling/v2beta1::HorizontalPodAutoscalerList": {},
+  "autoscaling/v2beta1::HorizontalPodAutoscalerSpec": {
+    "maxReplicas": 0,
+    "scaleTargetRef": {
+      "kind": "",
+      "name": ""
+    }
+  },
+  "autoscaling/v2beta1::HorizontalPodAutoscalerStatus": {
+    "currentReplicas": 0,
+    "desiredReplicas": 0
+  },
+  "autoscaling/v2beta1::MetricSpec": {
+    "type": ""
+  },
+  "autoscaling/v2beta1::MetricStatus": {
+    "type": ""
+  },
+  "autoscaling/v2beta1::ObjectMetricSource": {
+    "target": {
+      "kind": "",
+      "name": ""
+    },
+    "targetValue": "0"
+  },
+  "autoscaling/v2beta1::ObjectMetricStatus": {
+    "currentValue": "0",
+    "target": {
+      "kind": "",
+      "name": ""
+    }
+  },
+  "autoscaling/v2beta1::PodsMetricSource": {
+    "targetAverageValue": "0"
+  },
+  "autoscaling/v2beta1::PodsMetricStatus": {
+    "currentAverageValue": "0"
+  },
+  "autoscaling/v2beta1::ResourceMetricSource": {
+    "name": ""
+  },
+  "autoscaling/v2beta1::ResourceMetricStatus": {
+    "currentAverageValue": "0",
+    "name": ""
+  },
+  "autoscaling/v2beta2::ContainerResourceMetricSource": {
+    "name": "",
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2beta2::ContainerResourceMetricStatus": {
+    "current": {},
+    "name": ""
+  },
+  "autoscaling/v2beta2::CrossVersionObjectReference": {
+    "kind": "",
+    "name": ""
+  },
+  "autoscaling/v2beta2::ExternalMetricSource": {
+    "metric": {},
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2beta2::ExternalMetricStatus": {
+    "current": {},
+    "metric": {}
+  },
+  "autoscaling/v2beta2::HPAScalingPolicy": {
+    "periodSeconds": 0,
+    "type": "Pods",
+    "value": 0
+  },
+  "autoscaling/v2beta2::HPAScalingRules": {},
+  "autoscaling/v2beta2::HorizontalPodAutoscaler": {},
+  "autoscaling/v2beta2::HorizontalPodAutoscalerBehavior": {},
+  "autoscaling/v2beta2::HorizontalPodAutoscalerCondition": {
+    "status": "",
+    "type": ""
+  },
+  "autoscaling/v2beta2::HorizontalPodAutoscalerList": {},
+  "autoscaling/v2beta2::HorizontalPodAutoscalerSpec": {
+    "maxReplicas": 0,
+    "scaleTargetRef": {
+      "kind": "",
+      "name": ""
+    }
+  },
+  "autoscaling/v2beta2::HorizontalPodAutoscalerStatus": {
+    "currentReplicas": 0,
+    "desiredReplicas": 0
+  },
+  "autoscaling/v2beta2::MetricIdentifier": {},
+  "autoscaling/v2beta2::MetricSpec": {
+    "type": ""
+  },
+  "autoscaling/v2beta2::MetricStatus": {
+    "type": ""
+  },
+  "autoscaling/v2beta2::MetricTarget": {
+    "type": "Utilization"
+  },
+  "autoscaling/v2beta2::MetricValueStatus": {},
+  "autoscaling/v2beta2::ObjectMetricSource": {
+    "describedObject": {
+      "kind": "",
+      "name": ""
+    },
+    "metric": {},
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2beta2::ObjectMetricStatus": {
+    "current": {},
+    "describedObject": {
+      "kind": "",
+      "name": ""
+    },
+    "metric": {}
+  },
+  "autoscaling/v2beta2::PodsMetricSource": {
+    "metric": {},
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2beta2::PodsMetricStatus": {
+    "current": {},
+    "metric": {}
+  },
+  "autoscaling/v2beta2::ResourceMetricSource": {
+    "name": "",
+    "target": {
+      "type": "Utilization"
+    }
+  },
+  "autoscaling/v2beta2::ResourceMetricStatus": {
+    "current": {},
+    "name": ""
+  },
+  "batch/v1::CronJob": {},
+  "batch/v1::CronJobList": {
+    "items": []
+  },
+  "batch/v1::CronJobSpec": {
+    "concurrencyPolicy": "Allow",
+    "jobTemplate": {}
+  },
+  "batch/v1::CronJobStatus": {},
+  "batch/v1::Job": {},
+  "batch/v1::JobCondition": {
+    "status": "",
+    "type": ""
+  },
+  "batch/v1::JobList": {
+    "items": []
+  },
+  "batch/v1::JobSpec": {
+    "template": {}
+  },
+  "batch/v1::JobStatus": {},
+  "batch/v1::JobTemplateSpec": {},
+  "batch/v1::PodFailurePolicy": {
+    "rules": []
+  },
+  "batch/v1::PodFailurePolicyOnExitCodesRequirement": {
+    "operator": "In",
+    "values": []
+  },
+  "batch/v1::PodFailurePolicyOnPodConditionsPattern": {},
+  "batch/v1::PodFailurePolicyRule": {
+    "action": "FailJob"
+  },
+  "batch/v1::SuccessPolicy": {
+    "rules": []
+  },
+  "batch/v1::SuccessPolicyRule": {},
+  "batch/v1::UncountedTerminatedPods": {},
+  "batch/v1beta1::CronJob": {},
+  "batch/v1beta1::CronJobList": {
+    "items": []
+  },
+  "batch/v1beta1::CronJobSpec": {
+    "concurrencyPolicy": "Allow",
+    "jobTemplate": {}
+  },
+  "batch/v1beta1::CronJobStatus": {},
+  "certificates/v1::CertificateSigningRequest": {
+    "spec": {
+      "request": ""
+    }
+  },
+  "certificates/v1::CertificateSigningRequestCondition": {
+    "status": "",
+    "type": ""
+  },
+  "certificates/v1::CertificateSigningRequestList": {},
+  "certificates/v1::CertificateSigningRequestSpec": {
+    "request": ""
+  },
+  "certificates/v1::CertificateSigningRequestStatus": {},
+  "certificates/v1::ExtraValue": [],
+  "certificates/v1alpha1::ClusterTrustBundle": {
+    "spec": {
+      "trustBundle": ""
+    }
+  },
+  "certificates/v1alpha1::ClusterTrustBundleList": {},
+  "certificates/v1alpha1::ClusterTrustBundleSpec": {
+    "trustBundle": ""
+  },
+  "certificates/v1alpha1::PodCertificateRequest": {
+    "spec": {
+      "nodeName": "",
+      "nodeUID": "",
+      "pkixPublicKey": "",
+      "podName": "",
+      "podUID": "",
+      "proofOfPossession": "",
+      "serviceAccountName": "",
+      "serviceAccountUID": "",
+      "signerName": ""
+    }
+  },
+  "certificates/v1alpha1::PodCertificateRequestList": {},
+  "certificates/v1alpha1::PodCertificateRequestSpec": {
+    "nodeName": "",
+    "nodeUID": "",
+    "pkixPublicKey": "",
+    "podName": "",
+    "podUID": "",
+    "proofOfPossession": "",
+    "serviceAccountName": "",
+    "serviceAccountUID": "",
+    "signerName": ""
+  },
+  "certificates/v1alpha1::PodCertificateRequestStatus": {},
+  "certificates/v1beta1::CertificateSigningRequest": {
+    "spec": {
+      "request": ""
+    }
+  },
+  "certificates/v1beta1::CertificateSigningRequestList": {},
+  "certificates/v1beta1::CertificateSigningRequestSpec": {
+    "request": ""
+  },
+  "certificates/v1beta1::ClusterTrustBundle": {
+    "spec": {}
+  },
+  "certificates/v1beta1::ClusterTrustBundleList": {},
+  "certificates/v1beta1::ClusterTrustBundleSpec": {},
+  "common::Condition": {
+    "status": "",
+    "type": ""
+  },
+  "common::DeleteOptions": {},
+  "common::FieldSelectorRequirement": {
+    "key": "",
+    "operator": ""
+  },
+  "common::GroupResource": {},
+  "common::GroupVersion": {},
+  "common::GroupVersionKind": {},
+  "common::GroupVersionResource": {},
+  "common::LabelSelector": {},
+  "common::LabelSelectorRequirement": {
+    "key": "",
+    "operator": ""
+  },
+  "common::ListMeta": {},
+  "common::ManagedFieldsEntry": {},
+  "common::MicroTime": null,
+  "common::ObjectMeta": {},
+  "common::OwnerReference": {
+    "apiVersion": "",
+    "kind": "",
+    "name": "",
+    "uid": ""
+  },
+  "common::Preconditions": {},
+  "common::Quantity": "0",
+  "common::Status": {},
+  "common::StatusCause": {},
+  "common::StatusDetails": {},
+  "common::Timestamp": null,
+  "common::TopologySelectorLabelRequirement": {
+    "key": ""
+  },
+  "common::TopologySelectorTerm": {},
+  "common::TypeMeta": {},
+  "coordination/v1::Lease": {},
+  "coordination/v1::LeaseList": {},
+  "coordination/v1::LeaseSpec": {},
+  "coordination/v1alpha2::LeaseCandidate": {},
+  "coordination/v1alpha2::LeaseCandidateList": {},
+  "coordination/v1alpha2::LeaseCandidateSpec": {},
+  "coordination/v1beta1::Lease": {},
+  "coordination/v1beta1::LeaseCandidate": {},
+  "coordination/v1beta1::LeaseCandidateList": {},
+  "coordination/v1beta1::LeaseCandidateSpec": {},
+  "coordination/v1beta1::LeaseList": {},
+  "coordination/v1beta1::LeaseSpec": {},
+  "core/v1::AWSElasticBlockStoreVolumeSource": {
+    "volumeID": ""
+  },
+  "core/v1::Affinity": {},
+  "core/v1::AppArmorProfile": {},
+  "core/v1::AttachedVolume": {},
+  "core/v1::AvoidPods": {},
+  "core/v1::AzureDiskVolumeSource": {
+    "diskName": "",
+    "diskURI": ""
+  },
+  "core/v1::AzureFilePersistentVolumeSource": {
+    "secretName": "",
+    "shareName": ""
+  },
+  "core/v1::AzureFileVolumeSource": {
+    "secretName": "",
+    "shareName": ""
+  },
+  "core/v1::Binding": {
+    "target": {}
+  },
+  "core/v1::CSIPersistentVolumeSource": {
+    "driver": "",
+    "volumeHandle": ""
+  },
+  "core/v1::CSIVolumeSource": {},
+  "core/v1::Capabilities": {},
+  "core/v1::CephFSPersistentVolumeSource": {},
+  "core/v1::CephFSVolumeSource": {},
+  "core/v1::CinderPersistentVolumeSource": {
+    "volumeID": ""
+  },
+  "core/v1::CinderVolumeSource": {
+    "volumeID": ""
+  },
+  "core/v1::ClientIPConfig": {},
+  "core/v1::ClusterTrustBundleProjection": {},
+  "core/v1::ComponentStatus": {},
+  "core/v1::ComponentStatusList": {
+    "metadata": null
+  },
+  "core/v1::ConfigMap": {},
+  "core/v1::ConfigMapEnvSource": {},
+  "core/v1::ConfigMapKeySelector": {},
+  "core/v1::ConfigMapList": {},
+  "core/v1::ConfigMapProjection": {},
+  "core/v1::ConfigMapVolumeSource": {},
+  "core/v1::Container": {
+    "name": "",
+    "resources": {}
+  },
+  "core/v1::ContainerExtendedResourceRequest": {
+    "containerName": "",
+    "requestName": "",
+    "resourceName": ""
+  },
+  "core/v1::ContainerImage": {},
+  "core/v1::ContainerPort": {
+    "containerPort": 0
+  },
+  "core/v1::ContainerResizePolicy": {},
+  "core/v1::ContainerRestartRule": {},
+  "core/v1::ContainerRestartRuleOnExitCodes": {},
+  "core/v1::ContainerState": {},
+  "core/v1::ContainerStateRunning": {},
+  "core/v1::ContainerStateTerminated": {
+    "exitCode": 0
+  },
+  "core/v1::ContainerStateWaiting": {},
+  "core/v1::ContainerStatus": {
+    "name": "",
+    "ready": false,
+    "restartCount": 0
+  },
+  "core/v1::ContainerUser": {},
+  "core/v1::DownwardAPIProjection": {},
+  "core/v1::DownwardAPIVolumeFile": {},
+  "core/v1::DownwardAPIVolumeSource": {},
+  "core/v1::EmptyDirVolumeSource": {},
+  "core/v1::EndpointAddress": {},
+  "core/v1::EndpointPort": {
+    "port": 0
+  },
+  "core/v1::EndpointSubset": {},
+  "core/v1::Endpoints": {},
+  "core/v1::EndpointsList": {},
+  "core/v1::EnvFromSource": {},
+  "core/v1::EnvVar": {},
+  "core/v1::EnvVarSource": {},
+  "core/v1::EphemeralContainer": {
+    "resources": {}
+  },
+  "core/v1::EphemeralContainerCommon": {
+    "resources": {}
+  },
+  "core/v1::EphemeralVolumeSource": {},
+  "core/v1::Event": {
+    "involvedObject": {}
+  },
+  "core/v1::EventList": {},
+  "core/v1::EventSeries": {},
+  "core/v1::EventSource": {},
+  "core/v1::ExecAction": {},
+  "core/v1::FCVolumeSource": {},
+  "core/v1::FileKeySelector": {},
+  "core/v1::FlexPersistentVolumeSource": {
+    "driver": ""
+  },
+  "core/v1::FlexVolumeSource": {
+    "driver": ""
+  },
+  "core/v1::FlockerVolumeSource": {},
+  "core/v1::GCEPersistentDiskVolumeSource": {
+    "pdName": ""
+  },
+  "core/v1::GRPCAction": {
+    "port": 0
+  },
+  "core/v1::GitRepoVolumeSource": {
+    "repository": ""
+  },
+  "core/v1::GlusterfsPersistentVolumeSource": {
+    "endpoints": "",
+    "path": ""
+  },
+  "core/v1::GlusterfsVolumeSource": {},
+  "core/v1::HTTPGetAction": {
+    "port": 0
+  },
+  "core/v1::HTTPHeader": {},
+  "core/v1::HostAlias": {
+    "ip": ""
+  },
+  "core/v1::HostIP": {},
+  "core/v1::HostPathVolumeSource": {},
+  "core/v1::ISCSIPersistentVolumeSource": {
+    "iqn": "",
+    "lun": 0,
+    "targetPortal": ""
+  },
+  "core/v1::ISCSIVolumeSource": {
+    "lun": 0
+  },
+  "core/v1::ImageVolumeSource": {},
+  "core/v1::KeyToPath": {},
+  "core/v1::Lifecycle": {},
+  "core/v1::LifecycleHandler": {},
+  "core/v1::LimitRange": {},
+  "core/v1::LimitRangeItem": {},
+  "core/v1::LimitRangeList": {},
+  "core/v1::LimitRangeSpec": {},
+  "core/v1::LinuxContainerUser": {
+    "gid": 0,
+    "uid": 0
+  },
+  "core/v1::LoadBalancerIngress": {},
+  "core/v1::LoadBalancerStatus": {},
+  "core/v1::LocalObjectReference": {},
+  "core/v1::LocalVolumeSource": {},
+  "core/v1::ModifyVolumeStatus": {},
+  "core/v1::NFSVolumeSource": {},
+  "core/v1::Namespace": {},
+  "core/v1::NamespaceCondition": {
+    "status": "",
+    "type": ""
+  },
+  "core/v1::NamespaceList": {},
+  "core/v1::NamespaceSpec": {},
+  "core/v1::NamespaceStatus": {},
+  "core/v1::Node": {},
+  "core/v1::NodeAddress": {
+    "type": ""
+  },
+  "core/v1::NodeAffinity": {},
+  "core/v1::NodeCondition": {
+    "status": "",
+    "type": ""
+  },
+  "core/v1::NodeConfigSource": {},
+  "core/v1::NodeConfigStatus": {},
+  "core/v1::NodeDaemonEndpoints": {},
+  "core/v1::NodeFeatures": {},
+  "core/v1::NodeList": {},
+  "core/v1::NodeProxyOptions": {},
+  "core/v1::NodeRuntimeHandler": {},
+  "core/v1::NodeRuntimeHandlerFeatures": {},
+  "core/v1::NodeSelector": {},
+  "core/v1::NodeSelectorRequirement": {},
+  "core/v1::NodeSelectorTerm": {},
+  "core/v1::NodeSpec": {},
+  "core/v1::NodeStatus": {},
+  "core/v1::NodeSystemInfo": {},
+  "core/v1::ObjectFieldSelector": {},
+  "core/v1::ObjectReference": {},
+  "core/v1::PersistentVolume": {},
+  "core/v1::PersistentVolumeClaim": {},
+  "core/v1::PersistentVolumeClaimCondition": {
+    "status": "",
+    "type": ""
+  },
+  "core/v1::PersistentVolumeClaimList": {},
+  "core/v1::PersistentVolumeClaimSpec": {
+    "resources": {}
+  },
+  "core/v1::PersistentVolumeClaimStatus": {},
+  "core/v1::PersistentVolumeClaimTemplate": {},
+  "core/v1::PersistentVolumeClaimVolumeSource": {},
+  "core/v1::PersistentVolumeList": {},
+  "core/v1::PersistentVolumeSource": {},
+  "core/v1::PersistentVolumeSpec": {},
+  "core/v1::PersistentVolumeStatus": {},
+  "core/v1::PhotonPersistentDiskVolumeSource": {
+    "pdID": ""
+  },
+  "core/v1::Pod": {},
+  "core/v1::PodAffinity": {},
+  "core/v1::PodAffinityTerm": {},
+  "core/v1::PodAntiAffinity": {},
+  "core/v1::PodAttachOptions": {},
+  "core/v1::PodCertificateProjection": {},
+  "core/v1::PodCondition": {
+    "status": "",
+    "type": ""
+  },
+  "core/v1::PodDNSConfig": {},
+  "core/v1::PodDNSConfigOption": {
+    "name": ""
+  },
+  "core/v1::PodExecOptions": {},
+  "core/v1::PodExtendedResourceClaimStatus": {
+    "resourceClaimName": ""
+  },
+  "core/v1::PodIP": {},
+  "core/v1::PodList": {},
+  "core/v1::PodLogOptions": {},
+  "core/v1::PodOS": {
+    "name": ""
+  },
+  "core/v1::PodPortForwardOptions": {},
+  "core/v1::PodProxyOptions": {},
+  "core/v1::PodReadinessGate": {
+    "conditionType": ""
+  },
+  "core/v1::PodResourceClaim": {},
+  "core/v1::PodResourceClaimStatus": {},
+  "core/v1::PodSchedulingGate": {
+    "name": ""
+  },
+  "core/v1::PodSecurityContext": {},
+  "core/v1::PodSignature": {},
+  "core/v1::PodSpec": {},
+  "core/v1::PodStatus": {},
+  "core/v1::PodStatusResult": {},
+  "core/v1::PodTemplate": {},
+  "core/v1::PodTemplateList": {},
+  "core/v1::PodTemplateSpec": {},
+  "core/v1::PortStatus": {
+    "port": 0,
+    "protocol": ""
+  },
+  "core/v1::PortworxVolumeSource": {
+    "volumeID": ""
+  },
+  "core/v1::Preconditions": {},
+  "core/v1::PreferAvoidPodsEntry": {},
+  "core/v1::PreferredSchedulingTerm": {
+    "weight": 0
+  },
+  "core/v1::Probe": {},
+  "core/v1::ProbeHandler": {},
+  "core/v1::ProjectedVolumeSource": {},
+  "core/v1::QuobyteVolumeSource": {
+    "registry": "",
+    "volume": ""
+  },
+  "core/v1::RBDPersistentVolumeSource": {
+    "image": "",
+    "monitors": []
+  },
+  "core/v1::RBDVolumeSource": {
+    "image": ""
+  },
+  "core/v1::RangeAllocation": {
+    "data": ""
+  },
+  "core/v1::ReplicationController": {},
+  "core/v1::ReplicationControllerCondition": {},
+  "core/v1::ReplicationControllerList": {},
+  "core/v1::ReplicationControllerSpec": {},
+  "core/v1::ReplicationControllerStatus": {
+    "replicas": 0
+  },
+  "core/v1::ResourceClaim": {},
+  "core/v1::ResourceFieldSelector": {
+    "divisor": "0"
+  },
+  "core/v1::ResourceHealth": {
+    "resourceID": ""
+  },
+  "core/v1::ResourceQuota": {},
+  "core/v1::ResourceQuotaList": {},
+  "core/v1::ResourceQuotaSpec": {},
+  "core/v1::ResourceQuotaStatus": {},
+  "core/v1::ResourceRequirements": {},
+  "core/v1::ResourceStatus": {
+    "name": ""
+  },
+  "core/v1::SELinuxOptions": {},
+  "core/v1::ScaleIOPersistentVolumeSource": {
+    "gateway": "",
+    "secretRef": null,
+    "system": ""
+  },
+  "core/v1::ScaleIOVolumeSource": {
+    "gateway": "",
+    "secretRef": null,
+    "system": ""
+  },
+  "core/v1::ScopeSelector": {},
+  "core/v1::ScopedResourceSelectorRequirement": {},
+  "core/v1::SeccompProfile": {},
+  "core/v1::Secret": {},
+  "core/v1::SecretEnvSource": {},
+  "core/v1::SecretKeySelector": {},
+  "core/v1::SecretList": {},
+  "core/v1::SecretProjection": {},
+  "core/v1::SecretReference": {},
+  "core/v1::SecretVolumeSource": {},
+  "core/v1::SecurityContext": {},
+  "core/v1::SerializedReference": {},
+  "core/v1::Service": {},
+  "core/v1::ServiceAccount": {},
+  "core/v1::ServiceAccountList": {},
+  "core/v1::ServiceAccountTokenProjection": {},
+  "core/v1::ServiceList": {},
+  "core/v1::ServicePort": {
+    "port": 0
+  },
+  "core/v1::ServiceProxyOptions": {},
+  "core/v1::ServiceSpec": {},
+  "core/v1::ServiceStatus": {},
+  "core/v1::SessionAffinityConfig": {},
+  "core/v1::SleepAction": {
+    "seconds": 0
+  },
+  "core/v1::StorageOSPersistentVolumeSource": {},
+  "core/v1::StorageOSVolumeSource": {},
+  "core/v1::Sysctl": {},
+  "core/v1::TCPSocketAction": {
+    "port": 0
+  },
+  "core/v1::Taint": {},
+  "core/v1::Toleration": {},
+  "core/v1::TopologySelectorLabelRequirement": {
+    "key": ""
+  },
+  "core/v1::TopologySelectorTerm": {},
+  "core/v1::TopologySpreadConstraint": {
+    "maxSkew": 0
+  },
+  "core/v1::TypedLocalObjectReference": {},
+  "core/v1::TypedObjectReference": {},
+  "core/v1::Volume": {},
+  "core/v1::VolumeDevice": {},
+  "core/v1::VolumeMount": {},
+  "core/v1::VolumeMountStatus": {},
+  "core/v1::VolumeNodeAffinity": {},
+  "core/v1::VolumeProjection": {},
+  "core/v1::VolumeResourceRequirements": {},
+  "core/v1::VolumeSource": {},
+  "core/v1::VsphereVirtualDiskVolumeSource": {
+    "volumePath": ""
+  },
+  "core/v1::WeightedPodAffinityTerm": {
+    "weight": 0
+  },
+  "core/v1::WindowsSecurityContextOptions": {},
+  "discovery/v1::Endpoint": {
+    "addresses": [],
+    "conditions": {}
+  },
+  "discovery/v1::EndpointConditions": {},
+  "discovery/v1::EndpointHints": {},
+  "discovery/v1::EndpointPort": {},
+  "discovery/v1::EndpointSlice": {
+    "addressType": "IPv4"
+  },
+  "discovery/v1::EndpointSliceList": {
+    "items": []
+  },
+  "discovery/v1::ForNode": {
+    "name": ""
+  },
+  "discovery/v1::ForZone": {
+    "name": ""
+  },
+  "discovery/v1beta1::Endpoint": {
+    "addresses": [],
+    "conditions": {}
+  },
+  "discovery/v1beta1::EndpointConditions": {},
+  "discovery/v1beta1::EndpointHints": {},
+  "discovery/v1beta1::EndpointPort": {},
+  "discovery/v1beta1::EndpointSlice": {
+    "addressType": "IPv4"
+  },
+  "discovery/v1beta1::EndpointSliceList": {
+    "items": []
+  },
+  "discovery/v1beta1::ForNode": {
+    "name": ""
+  },
+  "discovery/v1beta1::ForZone": {
+    "name": ""
+  },
+  "events/v1::Event": {
+    "deprecatedCount": 0,
+    "eventTime": null,
+    "regarding": {}
+  },
+  "events/v1::EventList": {},
+  "events/v1::EventSeries": {
+    "count": 0,
+    "lastObservedTime": null
+  },
+  "events/v1::EventSource": {},
+  "events/v1beta1::Event": {
+    "eventTime": null,
+    "regarding": {}
+  },
+  "events/v1beta1::EventList": {},
+  "events/v1beta1::EventSeries": {
+    "count": 0,
+    "lastObservedTime": null
+  },
+  "events/v1beta1::EventSource": {},
+  "extensions/v1beta1::DaemonSet": {},
+  "extensions/v1beta1::DaemonSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "extensions/v1beta1::DaemonSetList": {},
+  "extensions/v1beta1::DaemonSetSpec": {
+    "template": {}
+  },
+  "extensions/v1beta1::DaemonSetStatus": {},
+  "extensions/v1beta1::DaemonSetUpdateStrategy": {},
+  "extensions/v1beta1::Deployment": {},
+  "extensions/v1beta1::DeploymentCondition": {
+    "status": "",
+    "type": ""
+  },
+  "extensions/v1beta1::DeploymentList": {},
+  "extensions/v1beta1::DeploymentRollback": {
+    "rollbackTo": {}
+  },
+  "extensions/v1beta1::DeploymentSpec": {
+    "paused": false,
+    "template": {}
+  },
+  "extensions/v1beta1::DeploymentStatus": {},
+  "extensions/v1beta1::DeploymentStrategy": {},
+  "extensions/v1beta1::HTTPIngressPath": {
+    "backend": {}
+  },
+  "extensions/v1beta1::HTTPIngressRuleValue": {},
+  "extensions/v1beta1::IPBlock": {},
+  "extensions/v1beta1::Ingress": {},
+  "extensions/v1beta1::IngressBackend": {},
+  "extensions/v1beta1::IngressList": {},
+  "extensions/v1beta1::IngressLoadBalancerIngress": {},
+  "extensions/v1beta1::IngressLoadBalancerStatus": {},
+  "extensions/v1beta1::IngressPortStatus": {
+    "port": 0,
+    "protocol": "TCP"
+  },
+  "extensions/v1beta1::IngressRule": {},
+  "extensions/v1beta1::IngressSpec": {},
+  "extensions/v1beta1::IngressStatus": {},
+  "extensions/v1beta1::IngressTLS": {},
+  "extensions/v1beta1::NetworkPolicy": {},
+  "extensions/v1beta1::NetworkPolicyEgressRule": {},
+  "extensions/v1beta1::NetworkPolicyIngressRule": {},
+  "extensions/v1beta1::NetworkPolicyList": {},
+  "extensions/v1beta1::NetworkPolicyPeer": {},
+  "extensions/v1beta1::NetworkPolicyPort": {},
+  "extensions/v1beta1::NetworkPolicySpec": {
+    "podSelector": {}
+  },
+  "extensions/v1beta1::ReplicaSet": {},
+  "extensions/v1beta1::ReplicaSetCondition": {
+    "status": "",
+    "type": ""
+  },
+  "extensions/v1beta1::ReplicaSetList": {},
+  "extensions/v1beta1::ReplicaSetSpec": {},
+  "extensions/v1beta1::ReplicaSetStatus": {},
+  "extensions/v1beta1::RollbackConfig": {},
+  "extensions/v1beta1::RollingUpdateDaemonSet": {},
+  "extensions/v1beta1::RollingUpdateDeployment": {},
+  "extensions/v1beta1::Scale": {},
+  "extensions/v1beta1::ScaleSpec": {},
+  "extensions/v1beta1::ScaleStatus": {},
+  "flowcontrol/v1::ExemptPriorityLevelConfiguration": {},
+  "flowcontrol/v1::FlowDistinguisherMethod": {
+    "type": "ByUser"
+  },
+  "flowcontrol/v1::FlowSchema": {},
+  "flowcontrol/v1::FlowSchemaCondition": {},
+  "flowcontrol/v1::FlowSchemaList": {
+    "items": []
+  },
+  "flowcontrol/v1::FlowSchemaSpec": {
+    "priorityLevelConfiguration": {
+      "name": ""
+    }
+  },
+  "flowcontrol/v1::FlowSchemaStatus": {},
+  "flowcontrol/v1::GroupSubject": {
+    "name": ""
+  },
+  "flowcontrol/v1::LimitResponse": {
+    "type": "Queue"
+  },
+  "flowcontrol/v1::LimitedPriorityLevelConfiguration": {},
+  "flowcontrol/v1::NonResourcePolicyRule": {
+    "nonResourceURLs": [],
+    "verbs": []
+  },
+  "flowcontrol/v1::PolicyRulesWithSubjects": {
+    "subjects": []
+  },
+  "flowcontrol/v1::PriorityLevelConfiguration": {},
+  "flowcontrol/v1::PriorityLevelConfigurationCondition": {},
+  "flowcontrol/v1::PriorityLevelConfigurationList": {
+    "items": []
+  },
+  "flowcontrol/v1::PriorityLevelConfigurationReference": {
+    "name": ""
+  },
+  "flowcontrol/v1::PriorityLevelConfigurationSpec": {},
+  "flowcontrol/v1::PriorityLevelConfigurationStatus": {},
+  "flowcontrol/v1::QueuingConfiguration": {},
+  "flowcontrol/v1::ResourcePolicyRule": {
+    "apiGroups": [],
+    "resources": [],
+    "verbs": []
+  },
+  "flowcontrol/v1::ServiceAccountSubject": {
+    "name": "",
+    "namespace": ""
+  },
+  "flowcontrol/v1::Subject": {
+    "kind": "User"
+  },
+  "flowcontrol/v1::UserSubject": {
+    "name": ""
+  },
+  "flowcontrol/v1beta1::ExemptPriorityLevelConfiguration": {},
+  "flowcontrol/v1beta1::FlowDistinguisherMethod": {
+    "type": "ByUser"
+  },
+  "flowcontrol/v1beta1::FlowSchema": {},
+  "flowcontrol/v1beta1::FlowSchemaCondition": {},
+  "flowcontrol/v1beta1::FlowSchemaList": {
+    "items": []
+  },
+  "flowcontrol/v1beta1::FlowSchemaSpec": {
+    "priorityLevelConfiguration": {
+      "name": ""
+    }
+  },
+  "flowcontrol/v1beta1::FlowSchemaStatus": {},
+  "flowcontrol/v1beta1::GroupSubject": {
+    "name": ""
+  },
+  "flowcontrol/v1beta1::LimitResponse": {
+    "type": "Queue"
+  },
+  "flowcontrol/v1beta1::LimitedPriorityLevelConfiguration": {},
+  "flowcontrol/v1beta1::NonResourcePolicyRule": {
+    "nonResourceURLs": [],
+    "verbs": []
+  },
+  "flowcontrol/v1beta1::PolicyRulesWithSubjects": {
+    "subjects": []
+  },
+  "flowcontrol/v1beta1::PriorityLevelConfiguration": {},
+  "flowcontrol/v1beta1::PriorityLevelConfigurationCondition": {},
+  "flowcontrol/v1beta1::PriorityLevelConfigurationList": {
+    "items": []
+  },
+  "flowcontrol/v1beta1::PriorityLevelConfigurationReference": {
+    "name": ""
+  },
+  "flowcontrol/v1beta1::PriorityLevelConfigurationSpec": {},
+  "flowcontrol/v1beta1::PriorityLevelConfigurationStatus": {},
+  "flowcontrol/v1beta1::QueuingConfiguration": {},
+  "flowcontrol/v1beta1::ResourcePolicyRule": {
+    "apiGroups": [],
+    "resources": [],
+    "verbs": []
+  },
+  "flowcontrol/v1beta1::ServiceAccountSubject": {
+    "name": "",
+    "namespace": ""
+  },
+  "flowcontrol/v1beta1::Subject": {
+    "kind": "User"
+  },
+  "flowcontrol/v1beta1::UserSubject": {
+    "name": ""
+  },
+  "flowcontrol/v1beta2::ExemptPriorityLevelConfiguration": {},
+  "flowcontrol/v1beta2::FlowDistinguisherMethod": {
+    "type": "ByUser"
+  },
+  "flowcontrol/v1beta2::FlowSchema": {},
+  "flowcontrol/v1beta2::FlowSchemaCondition": {},
+  "flowcontrol/v1beta2::FlowSchemaList": {
+    "items": []
+  },
+  "flowcontrol/v1beta2::FlowSchemaSpec": {
+    "priorityLevelConfiguration": {
+      "name": ""
+    }
+  },
+  "flowcontrol/v1beta2::FlowSchemaStatus": {},
+  "flowcontrol/v1beta2::GroupSubject": {
+    "name": ""
+  },
+  "flowcontrol/v1beta2::LimitResponse": {
+    "type": "Queue"
+  },
+  "flowcontrol/v1beta2::LimitedPriorityLevelConfiguration": {},
+  "flowcontrol/v1beta2::NonResourcePolicyRule": {
+    "nonResourceURLs": [],
+    "verbs": []
+  },
+  "flowcontrol/v1beta2::PolicyRulesWithSubjects": {
+    "subjects": []
+  },
+  "flowcontrol/v1beta2::PriorityLevelConfiguration": {},
+  "flowcontrol/v1beta2::PriorityLevelConfigurationCondition": {},
+  "flowcontrol/v1beta2::PriorityLevelConfigurationList": {
+    "items": []
+  },
+  "flowcontrol/v1beta2::PriorityLevelConfigurationReference": {
+    "name": ""
+  },
+  "flowcontrol/v1beta2::PriorityLevelConfigurationSpec": {},
+  "flowcontrol/v1beta2::PriorityLevelConfigurationStatus": {},
+  "flowcontrol/v1beta2::QueuingConfiguration": {},
+  "flowcontrol/v1beta2::ResourcePolicyRule": {
+    "apiGroups": [],
+    "resources": [],
+    "verbs": []
+  },
+  "flowcontrol/v1beta2::ServiceAccountSubject": {
+    "name": "",
+    "namespace": ""
+  },
+  "flowcontrol/v1beta2::Subject": {
+    "kind": "User"
+  },
+  "flowcontrol/v1beta2::UserSubject": {
+    "name": ""
+  },
+  "flowcontrol/v1beta3::ExemptPriorityLevelConfiguration": {},
+  "flowcontrol/v1beta3::FlowDistinguisherMethod": {
+    "type": "ByUser"
+  },
+  "flowcontrol/v1beta3::FlowSchema": {},
+  "flowcontrol/v1beta3::FlowSchemaCondition": {},
+  "flowcontrol/v1beta3::FlowSchemaList": {
+    "items": []
+  },
+  "flowcontrol/v1beta3::FlowSchemaSpec": {
+    "priorityLevelConfiguration": {
+      "name": ""
+    }
+  },
+  "flowcontrol/v1beta3::FlowSchemaStatus": {},
+  "flowcontrol/v1beta3::GroupSubject": {
+    "name": ""
+  },
+  "flowcontrol/v1beta3::LimitResponse": {
+    "type": "Queue"
+  },
+  "flowcontrol/v1beta3::LimitedPriorityLevelConfiguration": {},
+  "flowcontrol/v1beta3::NonResourcePolicyRule": {
+    "nonResourceURLs": [],
+    "verbs": []
+  },
+  "flowcontrol/v1beta3::PolicyRulesWithSubjects": {
+    "subjects": []
+  },
+  "flowcontrol/v1beta3::PriorityLevelConfiguration": {},
+  "flowcontrol/v1beta3::PriorityLevelConfigurationCondition": {},
+  "flowcontrol/v1beta3::PriorityLevelConfigurationList": {
+    "items": []
+  },
+  "flowcontrol/v1beta3::PriorityLevelConfigurationReference": {
+    "name": ""
+  },
+  "flowcontrol/v1beta3::PriorityLevelConfigurationSpec": {},
+  "flowcontrol/v1beta3::PriorityLevelConfigurationStatus": {},
+  "flowcontrol/v1beta3::QueuingConfiguration": {},
+  "flowcontrol/v1beta3::ResourcePolicyRule": {
+    "apiGroups": [],
+    "resources": [],
+    "verbs": []
+  },
+  "flowcontrol/v1beta3::ServiceAccountSubject": {
+    "name": "",
+    "namespace": ""
+  },
+  "flowcontrol/v1beta3::Subject": {
+    "kind": "User"
+  },
+  "flowcontrol/v1beta3::UserSubject": {
+    "name": ""
+  },
+  "imagepolicy/v1alpha1::ImageReview": {
+    "spec": {}
+  },
+  "imagepolicy/v1alpha1::ImageReviewContainerSpec": {},
+  "imagepolicy/v1alpha1::ImageReviewList": {},
+  "imagepolicy/v1alpha1::ImageReviewSpec": {},
+  "imagepolicy/v1alpha1::ImageReviewStatus": {
+    "allowed": false
+  },
+  "networking/v1::HTTPIngressPath": {
+    "backend": {},
+    "pathType": "Prefix"
+  },
+  "networking/v1::HTTPIngressRuleValue": {},
+  "networking/v1::IPAddress": {
+    "spec": {}
+  },
+  "networking/v1::IPAddressList": {
+    "metadata": null
+  },
+  "networking/v1::IPAddressSpec": {},
+  "networking/v1::IPBlock": {
+    "cidr": ""
+  },
+  "networking/v1::Ingress": {},
+  "networking/v1::IngressBackend": {},
+  "networking/v1::IngressClass": {
+    "spec": {}
+  },
+  "networking/v1::IngressClassList": {
+    "metadata": null
+  },
+  "networking/v1::IngressClassParametersReference": {
+    "kind": "",
+    "name": ""
+  },
+  "networking/v1::IngressClassSpec": {},
+  "networking/v1::IngressList": {
+    "metadata": null
+  },
+  "networking/v1::IngressLoadBalancerIngress": {},
+  "networking/v1::IngressLoadBalancerStatus": {},
+  "networking/v1::IngressPortStatus": {
+    "port": 0,
+    "protocol": ""
+  },
+  "networking/v1::IngressRule": {},
+  "networking/v1::IngressServiceBackend": {},
+  "networking/v1::IngressSpec": {},
+  "networking/v1::IngressStatus": {},
+  "networking/v1::IngressTLS": {},
+  "networking/v1::NetworkPolicy": {},
+  "networking/v1::NetworkPolicyEgressRule": {},
+  "networking/v1::NetworkPolicyIngressRule": {},
+  "networking/v1::NetworkPolicyList": {
+    "metadata": null
+  },
+  "networking/v1::NetworkPolicyPeer": {},
+  "networking/v1::NetworkPolicyPort": {},
+  "networking/v1::NetworkPolicySpec": {
+    "podSelector": {}
+  },
+  "networking/v1::ParentReference": {},
+  "networking/v1::ServiceBackendPort": {},
+  "networking/v1::ServiceCIDR": {
+    "spec": {}
+  },
+  "networking/v1::ServiceCIDRList": {
+    "metadata": null
+  },
+  "networking/v1::ServiceCIDRSpec": {},
+  "networking/v1::ServiceCIDRStatus": {},
+  "networking/v1beta1::IPAddress": {
+    "spec": {}
+  },
+  "networking/v1beta1::IPAddressList": {
+    "metadata": null
+  },
+  "networking/v1beta1::IPAddressSpec": {},
+  "networking/v1beta1::ParentReference": {},
+  "networking/v1beta1::ServiceCIDR": {
+    "spec": {}
+  },
+  "networking/v1beta1::ServiceCIDRList": {
+    "metadata": null
+  },
+  "networking/v1beta1::ServiceCIDRSpec": {},
+  "networking/v1beta1::ServiceCIDRStatus": {},
+  "node/v1::Overhead": {},
+  "node/v1::RuntimeClass": {
+    "handler": ""
+  },
+  "node/v1::RuntimeClassList": {},
+  "node/v1::Scheduling": {},
+  "node/v1alpha1::Overhead": {},
+  "node/v1alpha1::RuntimeClass": {
+    "spec": {
+      "runtimeHandler": ""
+    }
+  },
+  "node/v1alpha1::RuntimeClassList": {},
+  "node/v1alpha1::RuntimeClassSpec": {
+    "runtimeHandler": ""
+  },
+  "node/v1alpha1::Scheduling": {},
+  "node/v1beta1::Overhead": {},
+  "node/v1beta1::RuntimeClass": {
+    "handler": ""
+  },
+  "node/v1beta1::RuntimeClassList": {},
+  "node/v1beta1::Scheduling": {},
+  "policy/v1::Eviction": {},
+  "policy/v1::PodDisruptionBudget": {},
+  "policy/v1::PodDisruptionBudgetList": {},
+  "policy/v1::PodDisruptionBudgetSpec": {},
+  "policy/v1::PodDisruptionBudgetStatus": {},
+  "policy/v1beta1::Eviction": {},
+  "policy/v1beta1::PodDisruptionBudget": {},
+  "policy/v1beta1::PodDisruptionBudgetList": {},
+  "policy/v1beta1::PodDisruptionBudgetSpec": {},
+  "policy/v1beta1::PodDisruptionBudgetStatus": {
+    "currentHealthy": 0,
+    "desiredHealthy": 0,
+    "disruptionsAllowed": 0,
+    "expectedPods": 0
+  },
+  "rbac/v1::AggregationRule": {},
+  "rbac/v1::ClusterRole": {
+    "rules": []
+  },
+  "rbac/v1::ClusterRoleBinding": {
+    "roleRef": {
+      "apiGroup": "",
+      "kind": "",
+      "name": ""
+    }
+  },
+  "rbac/v1::ClusterRoleBindingList": {
+    "items": []
+  },
+  "rbac/v1::ClusterRoleList": {
+    "items": []
+  },
+  "rbac/v1::PolicyRule": {
+    "verbs": []
+  },
+  "rbac/v1::Role": {
+    "rules": []
+  },
+  "rbac/v1::RoleBinding": {
+    "roleRef": {
+      "apiGroup": "",
+      "kind": "",
+      "name": ""
+    }
+  },
+  "rbac/v1::RoleBindingList": {
+    "items": []
+  },
+  "rbac/v1::RoleList": {
+    "items": []
+  },
+  "rbac/v1::RoleRef": {
+    "apiGroup": "",
+    "kind": "",
+    "name": ""
+  },
+  "rbac/v1::Subject": {
+    "kind": "",
+    "name": ""
+  },
+  "rbac/v1alpha1::AggregationRule": {},
+  "rbac/v1alpha1::ClusterRole": {
+    "rules": []
+  },
+  "rbac/v1alpha1::ClusterRoleBinding": {
+    "roleRef": {
+      "apiGroup": "",
+      "kind": "",
+      "name": ""
+    }
+  },
+  "rbac/v1alpha1::ClusterRoleBindingList": {
+    "items": []
+  },
+  "rbac/v1alpha1::ClusterRoleList": {
+    "items": []
+  },
+  "rbac/v1alpha1::PolicyRule": {
+    "verbs": []
+  },
+  "rbac/v1alpha1::Role": {
+    "rules": []
+  },
+  "rbac/v1alpha1::RoleBinding": {
+    "roleRef": {
+      "apiGroup": "",
+      "kind": "",
+      "name": ""
+    }
+  },
+  "rbac/v1alpha1::RoleBindingList": {
+    "items": []
+  },
+  "rbac/v1alpha1::RoleList": {
+    "items": []
+  },
+  "rbac/v1alpha1::RoleRef": {
+    "apiGroup": "",
+    "kind": "",
+    "name": ""
+  },
+  "rbac/v1alpha1::Subject": {
+    "kind": "",
+    "name": ""
+  },
+  "rbac/v1beta1::AggregationRule": {},
+  "rbac/v1beta1::ClusterRole": {
+    "rules": []
+  },
+  "rbac/v1beta1::ClusterRoleBinding": {
+    "roleRef": {
+      "apiGroup": "",
+      "kind": "",
+      "name": ""
+    }
+  },
+  "rbac/v1beta1::ClusterRoleBindingList": {
+    "items": []
+  },
+  "rbac/v1beta1::ClusterRoleList": {
+    "items": []
+  },
+  "rbac/v1beta1::PolicyRule": {
+    "verbs": []
+  },
+  "rbac/v1beta1::Role": {
+    "rules": []
+  },
+  "rbac/v1beta1::RoleBinding": {
+    "roleRef": {
+      "apiGroup": "",
+      "kind": "",
+      "name": ""
+    }
+  },
+  "rbac/v1beta1::RoleBindingList": {
+    "items": []
+  },
+  "rbac/v1beta1::RoleList": {
+    "items": []
+  },
+  "rbac/v1beta1::RoleRef": {
+    "apiGroup": "",
+    "kind": "",
+    "name": ""
+  },
+  "rbac/v1beta1::Subject": {
+    "kind": "",
+    "name": ""
+  },
+  "resource/v1::AllocatedDeviceStatus": {},
+  "resource/v1::AllocationResult": {
+    "devices": {}
+  },
+  "resource/v1::CELDeviceSelector": {
+    "expression": ""
+  },
+  "resource/v1::CapacityRequestPolicy": {},
+  "resource/v1::CapacityRequestPolicyRange": {},
+  "resource/v1::CapacityRequirements": {},
+  "resource/v1::Counter": {
+    "value": "0"
+  },
+  "resource/v1::CounterSet": {
+    "name": ""
+  },
+  "resource/v1::Device": {
+    "name": ""
+  },
+  "resource/v1::DeviceAllocationConfiguration": {
+    "source": ""
+  },
+  "resource/v1::DeviceAllocationResult": {},
+  "resource/v1::DeviceAttribute": {},
+  "resource/v1::DeviceCapacity": {
+    "value": "0"
+  },
+  "resource/v1::DeviceClaim": {},
+  "resource/v1::DeviceClaimConfiguration": {},
+  "resource/v1::DeviceClass": {
+    "spec": {}
+  },
+  "resource/v1::DeviceClassConfiguration": {},
+  "resource/v1::DeviceClassList": {
+    "metadata": null
+  },
+  "resource/v1::DeviceClassSpec": {},
+  "resource/v1::DeviceConfiguration": {},
+  "resource/v1::DeviceConstraint": {
+    "matchAttribute": ""
+  },
+  "resource/v1::DeviceCounterConsumption": {
+    "counterSet": ""
+  },
+  "resource/v1::DeviceRequest": {
+    "name": ""
+  },
+  "resource/v1::DeviceRequestAllocationResult": {
+    "device": "",
+    "driver": "",
+    "pool": "",
+    "request": ""
+  },
+  "resource/v1::DeviceSelector": {},
+  "resource/v1::DeviceSubRequest": {
+    "deviceClassName": "",
+    "name": ""
+  },
+  "resource/v1::DeviceTaint": {
+    "effect": "",
+    "key": ""
+  },
+  "resource/v1::DeviceToleration": {},
+  "resource/v1::ExactDeviceRequest": {
+    "deviceClassName": ""
+  },
+  "resource/v1::NetworkDeviceData": {},
+  "resource/v1::OpaqueDeviceConfiguration": {
+    "driver": ""
+  },
+  "resource/v1::ResourceClaim": {
+    "spec": {
+      "devices": {}
+    }
+  },
+  "resource/v1::ResourceClaimConsumerReference": {
+    "apiGroup": "",
+    "name": "",
+    "resource": "",
+    "uid": ""
+  },
+  "resource/v1::ResourceClaimList": {
+    "metadata": null
+  },
+  "resource/v1::ResourceClaimSpec": {
+    "devices": {}
+  },
+  "resource/v1::ResourceClaimStatus": {},
+  "resource/v1::ResourceClaimTemplate": {
+    "spec": {
+      "spec": {
+        "devices": {}
+      }
+    }
+  },
+  "resource/v1::ResourceClaimTemplateList": {
+    "metadata": null
+  },
+  "resource/v1::ResourceClaimTemplateSpec": {
+    "spec": {
+      "devices": {}
+    }
+  },
+  "resource/v1::ResourcePool": {
+    "generation": 0,
+    "name": "",
+    "resourceSliceCount": 0
+  },
+  "resource/v1::ResourceSlice": {
+    "spec": {
+      "driver": "",
+      "pool": {
+        "generation": 0,
+        "name": "",
+        "resourceSliceCount": 0
+      }
+    }
+  },
+  "resource/v1::ResourceSliceList": {
+    "metadata": null
+  },
+  "resource/v1::ResourceSliceSpec": {
+    "driver": "",
+    "pool": {
+      "generation": 0,
+      "name": "",
+      "resourceSliceCount": 0
+    }
+  },
+  "resource/v1alpha3::CELDeviceSelector": {
+    "expression": ""
+  },
+  "resource/v1alpha3::DeviceSelector": {},
+  "resource/v1alpha3::DeviceTaint": {
+    "effect": "",
+    "key": ""
+  },
+  "resource/v1alpha3::DeviceTaintRule": {
+    "spec": {
+      "taint": {
+        "effect": "",
+        "key": ""
+      }
+    }
+  },
+  "resource/v1alpha3::DeviceTaintRuleList": {
+    "metadata": null
+  },
+  "resource/v1alpha3::DeviceTaintRuleSpec": {
+    "taint": {
+      "effect": "",
+      "key": ""
+    }
+  },
+  "resource/v1alpha3::DeviceTaintSelector": {},
+  "resource/v1beta1::AllocatedDeviceStatus": {},
+  "resource/v1beta1::AllocationResult": {
+    "devices": {}
+  },
+  "resource/v1beta1::BasicDevice": {},
+  "resource/v1beta1::CELDeviceSelector": {
+    "expression": ""
+  },
+  "resource/v1beta1::CapacityRequestPolicy": {},
+  "resource/v1beta1::CapacityRequestPolicyRange": {},
+  "resource/v1beta1::CapacityRequirements": {},
+  "resource/v1beta1::Counter": {
+    "value": "0"
+  },
+  "resource/v1beta1::CounterSet": {
+    "name": ""
+  },
+  "resource/v1beta1::Device": {
+    "name": ""
+  },
+  "resource/v1beta1::DeviceAllocationConfiguration": {
+    "source": ""
+  },
+  "resource/v1beta1::DeviceAllocationResult": {},
+  "resource/v1beta1::DeviceAttribute": {},
+  "resource/v1beta1::DeviceCapacity": {
+    "value": "0"
+  },
+  "resource/v1beta1::DeviceClaim": {},
+  "resource/v1beta1::DeviceClaimConfiguration": {},
+  "resource/v1beta1::DeviceClass": {
+    "spec": {}
+  },
+  "resource/v1beta1::DeviceClassConfiguration": {},
+  "resource/v1beta1::DeviceClassList": {
+    "metadata": null
+  },
+  "resource/v1beta1::DeviceClassSpec": {},
+  "resource/v1beta1::DeviceConfiguration": {},
+  "resource/v1beta1::DeviceConstraint": {},
+  "resource/v1beta1::DeviceCounterConsumption": {
+    "counterSet": ""
+  },
+  "resource/v1beta1::DeviceRequest": {
+    "deviceClassName": "",
+    "name": ""
+  },
+  "resource/v1beta1::DeviceRequestAllocationResult": {
+    "device": "",
+    "driver": "",
+    "pool": "",
+    "request": ""
+  },
+  "resource/v1beta1::DeviceSelector": {},
+  "resource/v1beta1::DeviceSubRequest": {
+    "deviceClassName": "",
+    "name": ""
+  },
+  "resource/v1beta1::DeviceTaint": {
+    "effect": "",
+    "key": ""
+  },
+  "resource/v1beta1::DeviceToleration": {},
+  "resource/v1beta1::NetworkDeviceData": {},
+  "resource/v1beta1::OpaqueDeviceConfiguration": {
+    "driver": ""
+  },
+  "resource/v1beta1::ResourceClaim": {
+    "spec": {
+      "devices": {}
+    }
+  },
+  "resource/v1beta1::ResourceClaimConsumerReference": {
+    "apiGroup": "",
+    "name": "",
+    "resource": "",
+    "uid": ""
+  },
+  "resource/v1beta1::ResourceClaimList": {
+    "metadata": null
+  },
+  "resource/v1beta1::ResourceClaimSpec": {
+    "devices": {}
+  },
+  "resource/v1beta1::ResourceClaimStatus": {},
+  "resource/v1beta1::ResourceClaimTemplate": {
+    "spec": {
+      "spec": {
+        "devices": {}
+      }
+    }
+  },
+  "resource/v1beta1::ResourceClaimTemplateList": {
+    "metadata": null
+  },
+  "resource/v1beta1::ResourceClaimTemplateSpec": {
+    "spec": {
+      "devices": {}
+    }
+  },
+  "resource/v1beta1::ResourcePool": {
+    "generation": 0,
+    "name": "",
+    "resourceSliceCount": 0
+  },
+  "resource/v1beta1::ResourceSlice": {
+    "spec": {
+      "driver": "",
+      "pool": {
+        "generation": 0,
+        "name": "",
+        "resourceSliceCount": 0
+      }
+    }
+  },
+  "resource/v1beta1::ResourceSliceList": {
+    "metadata": null
+  },
+  "resource/v1beta1::ResourceSliceSpec": {
+    "driver": "",
+    "pool": {
+      "generation": 0,
+      "name": "",
+      "resourceSliceCount": 0
+    }
+  },
+  "resource/v1beta2::AllocatedDeviceStatus": {},
+  "resource/v1beta2::AllocationResult": {
+    "devices": {}
+  },
+  "resource/v1beta2::CELDeviceSelector": {
+    "expression": ""
+  },
+  "resource/v1beta2::CapacityRequestPolicy": {},
+  "resource/v1beta2::CapacityRequestPolicyRange": {},
+  "resource/v1beta2::CapacityRequirements": {},
+  "resource/v1beta2::Counter": {
+    "value": "0"
+  },
+  "resource/v1beta2::CounterSet": {
+    "name": ""
+  },
+  "resource/v1beta2::Device": {
+    "name": ""
+  },
+  "resource/v1beta2::DeviceAllocationConfiguration": {
+    "source": ""
+  },
+  "resource/v1beta2::DeviceAllocationResult": {},
+  "resource/v1beta2::DeviceAttribute": {},
+  "resource/v1beta2::DeviceCapacity": {
+    "value": "0"
+  },
+  "resource/v1beta2::DeviceClaim": {},
+  "resource/v1beta2::DeviceClaimConfiguration": {},
+  "resource/v1beta2::DeviceClass": {
+    "spec": {}
+  },
+  "resource/v1beta2::DeviceClassConfiguration": {},
+  "resource/v1beta2::DeviceClassList": {
+    "metadata": null
+  },
+  "resource/v1beta2::DeviceClassSpec": {},
+  "resource/v1beta2::DeviceConfiguration": {},
+  "resource/v1beta2::DeviceConstraint": {},
+  "resource/v1beta2::DeviceCounterConsumption": {
+    "counterSet": ""
+  },
+  "resource/v1beta2::DeviceRequest": {
+    "name": ""
+  },
+  "resource/v1beta2::DeviceRequestAllocationResult": {
+    "device": "",
+    "driver": "",
+    "pool": "",
+    "request": ""
+  },
+  "resource/v1beta2::DeviceSelector": {},
+  "resource/v1beta2::DeviceSubRequest": {
+    "deviceClassName": "",
+    "name": ""
+  },
+  "resource/v1beta2::DeviceTaint": {
+    "effect": "",
+    "key": ""
+  },
+  "resource/v1beta2::DeviceToleration": {},
+  "resource/v1beta2::ExactDeviceRequest": {
+    "deviceClassName": ""
+  },
+  "resource/v1beta2::NetworkDeviceData": {},
+  "resource/v1beta2::OpaqueDeviceConfiguration": {
+    "driver": ""
+  },
+  "resource/v1beta2::ResourceClaim": {
+    "spec": {
+      "devices": {}
+    }
+  },
+  "resource/v1beta2::ResourceClaimConsumerReference": {
+    "apiGroup": "",
+    "name": "",
+    "resource": "",
+    "uid": ""
+  },
+  "resource/v1beta2::ResourceClaimList": {
+    "metadata": null
+  },
+  "resource/v1beta2::ResourceClaimSpec": {
+    "devices": {}
+  },
+  "resource/v1beta2::ResourceClaimStatus": {},
+  "resource/v1beta2::ResourceClaimTemplate": {
+    "spec": {
+      "spec": {
+        "devices": {}
+      }
+    }
+  },
+  "resource/v1beta2::ResourceClaimTemplateList": {
+    "metadata": null
+  },
+  "resource/v1beta2::ResourceClaimTemplateSpec": {
+    "spec": {
+      "devices": {}
+    }
+  },
+  "resource/v1beta2::ResourcePool": {
+    "generation": 0,
+    "name": "",
+    "resourceSliceCount": 0
+  },
+  "resource/v1beta2::ResourceSlice": {
+    "spec": {
+      "driver": "",
+      "pool": {
+        "generation": 0,
+        "name": "",
+        "resourceSliceCount": 0
+      }
+    }
+  },
+  "resource/v1beta2::ResourceSliceList": {
+    "metadata": null
+  },
+  "resource/v1beta2::ResourceSliceSpec": {
+    "driver": "",
+    "pool": {
+      "generation": 0,
+      "name": "",
+      "resourceSliceCount": 0
+    }
+  },
+  "scheduling/v1::PriorityClass": {
+    "globalDefault": false
+  },
+  "scheduling/v1::PriorityClassList": {},
+  "scheduling/v1alpha1::PriorityClass": {
+    "globalDefault": false,
+    "value": 0
+  },
+  "scheduling/v1alpha1::PriorityClassList": {},
+  "scheduling/v1beta1::PriorityClass": {
+    "globalDefault": false
+  },
+  "scheduling/v1beta1::PriorityClassList": {},
+  "storage/v1::CSIDriver": {
+    "spec": {}
+  },
+  "storage/v1::CSIDriverList": {
+    "items": []
+  },
+  "storage/v1::CSIDriverSpec": {},
+  "storage/v1::CSINode": {
+    "spec": {
+      "drivers": []
+    }
+  },
+  "storage/v1::CSINodeDriver": {
+    "name": "",
+    "nodeID": "",
+    "topologyKeys": []
+  },
+  "storage/v1::CSINodeList": {
+    "items": []
+  },
+  "storage/v1::CSINodeSpec": {
+    "drivers": []
+  },
+  "storage/v1::CSIStorageCapacity": {
+    "storageClassName": ""
+  },
+  "storage/v1::CSIStorageCapacityList": {
+    "items": []
+  },
+  "storage/v1::StorageClass": {
+    "provisioner": ""
+  },
+  "storage/v1::StorageClassList": {
+    "items": []
+  },
+  "storage/v1::TokenRequest": {
+    "audience": ""
+  },
+  "storage/v1::VolumeAttachment": {
+    "spec": {
+      "attacher": "",
+      "nodeName": "",
+      "source": {}
+    }
+  },
+  "storage/v1::VolumeAttachmentList": {
+    "items": []
+  },
+  "storage/v1::VolumeAttachmentSource": {},
+  "storage/v1::VolumeAttachmentSpec": {
+    "attacher": "",
+    "nodeName": "",
+    "source": {}
+  },
+  "storage/v1::VolumeAttachmentStatus": {
+    "attached": false
+  },
+  "storage/v1::VolumeAttributesClass": {
+    "driverName": ""
+  },
+  "storage/v1::VolumeAttributesClassList": {
+    "items": []
+  },
+  "storage/v1::VolumeError": {},
+  "storage/v1::VolumeNodeResources": {},
+  "storage/v1alpha1::CSIStorageCapacity": {
+    "storageClassName": ""
+  },
+  "storage/v1alpha1::CSIStorageCapacityList": {
+    "items": []
+  },
+  "storage/v1alpha1::VolumeAttachment": {
+    "spec": {
+      "attacher": "",
+      "nodeName": "",
+      "source": {}
+    }
+  },
+  "storage/v1alpha1::VolumeAttachmentList": {
+    "items": []
+  },
+  "storage/v1alpha1::VolumeAttachmentSource": {},
+  "storage/v1alpha1::VolumeAttachmentSpec": {
+    "attacher": "",
+    "nodeName": "",
+    "source": {}
+  },
+  "storage/v1alpha1::VolumeAttachmentStatus": {
+    "attached": false
+  },
+  "storage/v1alpha1::VolumeAttributesClass": {
+    "driverName": ""
+  },
+  "storage/v1alpha1::VolumeAttributesClassList": {
+    "items": []
+  },
+  "storage/v1alpha1::VolumeError": {},
+  "storage/v1beta1::CSIDriver": {
+    "spec": {}
+  },
+  "storage/v1beta1::CSIDriverList": {
+    "items": []
+  },
+  "storage/v1beta1::CSIDriverSpec": {},
+  "storage/v1beta1::CSINode": {
+    "spec": {}
+  },
+  "storage/v1beta1::CSINodeDriver": {
+    "name": "",
+    "nodeID": ""
+  },
+  "storage/v1beta1::CSINodeList": {
+    "items": []
+  },
+  "storage/v1beta1::CSINodeSpec": {},
+  "storage/v1beta1::CSIStorageCapacity": {
+    "storageClassName": ""
+  },
+  "storage/v1beta1::CSIStorageCapacityList": {
+    "items": []
+  },
+  "storage/v1beta1::StorageClass": {
+    "provisioner": ""
+  },
+  "storage/v1beta1::StorageClassList": {
+    "items": []
+  },
+  "storage/v1beta1::TokenRequest": {
+    "audience": ""
+  },
+  "storage/v1beta1::VolumeAttachment": {
+    "spec": {
+      "attacher": "",
+      "nodeName": "",
+      "source": {}
+    }
+  },
+  "storage/v1beta1::VolumeAttachmentList": {
+    "items": []
+  },
+  "storage/v1beta1::VolumeAttachmentSource": {},
+  "storage/v1beta1::VolumeAttachmentSpec": {
+    "attacher": "",
+    "nodeName": "",
+    "source": {}
+  },
+  "storage/v1beta1::VolumeAttachmentStatus": {
+    "attached": false
+  },
+  "storage/v1beta1::VolumeAttributesClass": {
+    "driverName": ""
+  },
+  "storage/v1beta1::VolumeAttributesClassList": {
+    "items": []
+  },
+  "storage/v1beta1::VolumeError": {},
+  "storage/v1beta1::VolumeNodeResources": {},
+  "storagemigration/v1alpha1::GroupVersionResource": {},
+  "storagemigration/v1alpha1::MigrationCondition": {
+    "status": "",
+    "type": ""
+  },
+  "storagemigration/v1alpha1::StorageVersionMigration": {},
+  "storagemigration/v1alpha1::StorageVersionMigrationList": {
+    "items": []
+  },
+  "storagemigration/v1alpha1::StorageVersionMigrationSpec": {
+    "resource": {}
+  },
+  "storagemigration/v1alpha1::StorageVersionMigrationStatus": {},
+  "testapigroup/v1::Carp": {},
+  "testapigroup/v1::CarpCondition": {
+    "status": "",
+    "type": ""
+  },
+  "testapigroup/v1::CarpConditionType": "",
+  "testapigroup/v1::CarpInfo": {
+    "a": 0,
+    "b": "",
+    "data": ""
+  },
+  "testapigroup/v1::CarpList": {
+    "items": []
+  },
+  "testapigroup/v1::CarpPhase": "",
+  "testapigroup/v1::CarpSpec": {
+    "hostIPC": false,
+    "hostNetwork": false,
+    "hostPID": false
+  },
+  "testapigroup/v1::CarpStatus": {},
+  "testapigroup/v1::ConditionStatus": "",
+  "testapigroup/v1::RestartPolicy": ""
+}

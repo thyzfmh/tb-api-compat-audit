@@ -1,0 +1,798 @@
+{
+ "v1.Container": {
+  "fields": {
+   "Args": {
+    "name": "Args",
+    "jsonName": "args",
+    "omitempty": true,
+    "goType": "[]string",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "Command": {
+    "name": "Command",
+    "jsonName": "command",
+    "omitempty": true,
+    "goType": "[]string",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "Env": {
+    "name": "Env",
+    "jsonName": "env",
+    "omitempty": true,
+    "goType": "[]v1.EnvVar",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "EnvFrom": {
+    "name": "EnvFrom",
+    "jsonName": "envFrom",
+    "omitempty": true,
+    "goType": "[]v1.EnvFromSource",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "Image": {
+    "name": "Image",
+    "jsonName": "image",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "ImagePullPolicy": {
+    "name": "ImagePullPolicy",
+    "jsonName": "imagePullPolicy",
+    "omitempty": true,
+    "goType": "v1.PullPolicy",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "Lifecycle": {
+    "name": "Lifecycle",
+    "jsonName": "lifecycle",
+    "omitempty": true,
+    "goType": "*v1.Lifecycle",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "LivenessProbe": {
+    "name": "LivenessProbe",
+    "jsonName": "livenessProbe",
+    "omitempty": true,
+    "goType": "*v1.Probe",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Name": {
+    "name": "Name",
+    "jsonName": "name",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "Ports": {
+    "name": "Ports",
+    "jsonName": "ports",
+    "omitempty": true,
+    "goType": "[]v1.ContainerPort",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "ReadinessProbe": {
+    "name": "ReadinessProbe",
+    "jsonName": "readinessProbe",
+    "omitempty": true,
+    "goType": "*v1.Probe",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "ResizePolicy": {
+    "name": "ResizePolicy",
+    "jsonName": "resizePolicy",
+    "omitempty": true,
+    "goType": "[]v1.ContainerResizePolicy",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "Resources": {
+    "name": "Resources",
+    "jsonName": "resources",
+    "omitempty": true,
+    "goType": "v1.ResourceRequirements",
+    "kind": "struct",
+    "zeroWire": "present_full"
+   },
+   "RestartPolicy": {
+    "name": "RestartPolicy",
+    "jsonName": "restartPolicy",
+    "omitempty": true,
+    "goType": "*v1.ContainerRestartPolicy",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "RestartPolicyRules": {
+    "name": "RestartPolicyRules",
+    "jsonName": "restartPolicyRules",
+    "omitempty": true,
+    "goType": "[]v1.ContainerRestartRule",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "SecurityContext": {
+    "name": "SecurityContext",
+    "jsonName": "securityContext",
+    "omitempty": true,
+    "goType": "*v1.SecurityContext",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "StartupProbe": {
+    "name": "StartupProbe",
+    "jsonName": "startupProbe",
+    "omitempty": true,
+    "goType": "*v1.Probe",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Stdin": {
+    "name": "Stdin",
+    "jsonName": "stdin",
+    "omitempty": true,
+    "goType": "bool",
+    "kind": "bool",
+    "zeroWire": "absent"
+   },
+   "StdinOnce": {
+    "name": "StdinOnce",
+    "jsonName": "stdinOnce",
+    "omitempty": true,
+    "goType": "bool",
+    "kind": "bool",
+    "zeroWire": "absent"
+   },
+   "TTY": {
+    "name": "TTY",
+    "jsonName": "tty",
+    "omitempty": true,
+    "goType": "bool",
+    "kind": "bool",
+    "zeroWire": "absent"
+   },
+   "TerminationMessagePath": {
+    "name": "TerminationMessagePath",
+    "jsonName": "terminationMessagePath",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "TerminationMessagePolicy": {
+    "name": "TerminationMessagePolicy",
+    "jsonName": "terminationMessagePolicy",
+    "omitempty": true,
+    "goType": "v1.TerminationMessagePolicy",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "VolumeDevices": {
+    "name": "VolumeDevices",
+    "jsonName": "volumeDevices",
+    "omitempty": true,
+    "goType": "[]v1.VolumeDevice",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "VolumeMounts": {
+    "name": "VolumeMounts",
+    "jsonName": "volumeMounts",
+    "omitempty": true,
+    "goType": "[]v1.VolumeMount",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "WorkingDir": {
+    "name": "WorkingDir",
+    "jsonName": "workingDir",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   }
+  },
+  "zeroMarshal": "{\"name\":\"\",\"resources\":{}}"
+ },
+ "v1.NodeSystemInfo": {
+  "fields": {
+   "Architecture": {
+    "name": "Architecture",
+    "jsonName": "architecture",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "BootID": {
+    "name": "BootID",
+    "jsonName": "bootID",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "ContainerRuntimeVersion": {
+    "name": "ContainerRuntimeVersion",
+    "jsonName": "containerRuntimeVersion",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "KernelVersion": {
+    "name": "KernelVersion",
+    "jsonName": "kernelVersion",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "KubeProxyVersion": {
+    "name": "KubeProxyVersion",
+    "jsonName": "kubeProxyVersion",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "KubeletVersion": {
+    "name": "KubeletVersion",
+    "jsonName": "kubeletVersion",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "MachineID": {
+    "name": "MachineID",
+    "jsonName": "machineID",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "OSImage": {
+    "name": "OSImage",
+    "jsonName": "osImage",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "OperatingSystem": {
+    "name": "OperatingSystem",
+    "jsonName": "operatingSystem",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   },
+   "Swap": {
+    "name": "Swap",
+    "jsonName": "swap",
+    "omitempty": true,
+    "goType": "*v1.NodeSwapStatus",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "SystemUUID": {
+    "name": "SystemUUID",
+    "jsonName": "systemUUID",
+    "omitempty": false,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "\"\""
+   }
+  },
+  "zeroMarshal": "{\"machineID\":\"\",\"systemUUID\":\"\",\"bootID\":\"\",\"kernelVersion\":\"\",\"osImage\":\"\",\"containerRuntimeVersion\":\"\",\"kubeletVersion\":\"\",\"kubeProxyVersion\":\"\",\"operatingSystem\":\"\",\"architecture\":\"\"}"
+ },
+ "v1.PodSpec": {
+  "fields": {
+   "ActiveDeadlineSeconds": {
+    "name": "ActiveDeadlineSeconds",
+    "jsonName": "activeDeadlineSeconds",
+    "omitempty": true,
+    "goType": "*int64",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Affinity": {
+    "name": "Affinity",
+    "jsonName": "affinity",
+    "omitempty": true,
+    "goType": "*v1.Affinity",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "AutomountServiceAccountToken": {
+    "name": "AutomountServiceAccountToken",
+    "jsonName": "automountServiceAccountToken",
+    "omitempty": true,
+    "goType": "*bool",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Containers": {
+    "name": "Containers",
+    "jsonName": "containers",
+    "omitempty": false,
+    "goType": "[]v1.Container",
+    "kind": "slice",
+    "zeroWire": "null"
+   },
+   "DNSConfig": {
+    "name": "DNSConfig",
+    "jsonName": "dnsConfig",
+    "omitempty": true,
+    "goType": "*v1.PodDNSConfig",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "DNSPolicy": {
+    "name": "DNSPolicy",
+    "jsonName": "dnsPolicy",
+    "omitempty": true,
+    "goType": "v1.DNSPolicy",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "DeprecatedServiceAccount": {
+    "name": "DeprecatedServiceAccount",
+    "jsonName": "serviceAccount",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "EnableServiceLinks": {
+    "name": "EnableServiceLinks",
+    "jsonName": "enableServiceLinks",
+    "omitempty": true,
+    "goType": "*bool",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "EphemeralContainers": {
+    "name": "EphemeralContainers",
+    "jsonName": "ephemeralContainers",
+    "omitempty": true,
+    "goType": "[]v1.EphemeralContainer",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "HostAliases": {
+    "name": "HostAliases",
+    "jsonName": "hostAliases",
+    "omitempty": true,
+    "goType": "[]v1.HostAlias",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "HostIPC": {
+    "name": "HostIPC",
+    "jsonName": "hostIPC",
+    "omitempty": true,
+    "goType": "bool",
+    "kind": "bool",
+    "zeroWire": "absent"
+   },
+   "HostNetwork": {
+    "name": "HostNetwork",
+    "jsonName": "hostNetwork",
+    "omitempty": true,
+    "goType": "bool",
+    "kind": "bool",
+    "zeroWire": "absent"
+   },
+   "HostPID": {
+    "name": "HostPID",
+    "jsonName": "hostPID",
+    "omitempty": true,
+    "goType": "bool",
+    "kind": "bool",
+    "zeroWire": "absent"
+   },
+   "HostUsers": {
+    "name": "HostUsers",
+    "jsonName": "hostUsers",
+    "omitempty": true,
+    "goType": "*bool",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Hostname": {
+    "name": "Hostname",
+    "jsonName": "hostname",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "HostnameOverride": {
+    "name": "HostnameOverride",
+    "jsonName": "hostnameOverride",
+    "omitempty": true,
+    "goType": "*string",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "ImagePullSecrets": {
+    "name": "ImagePullSecrets",
+    "jsonName": "imagePullSecrets",
+    "omitempty": true,
+    "goType": "[]v1.LocalObjectReference",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "InitContainers": {
+    "name": "InitContainers",
+    "jsonName": "initContainers",
+    "omitempty": true,
+    "goType": "[]v1.Container",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "NodeName": {
+    "name": "NodeName",
+    "jsonName": "nodeName",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "NodeSelector": {
+    "name": "NodeSelector",
+    "jsonName": "nodeSelector",
+    "omitempty": true,
+    "goType": "map[string]string",
+    "kind": "map",
+    "zeroWire": "absent"
+   },
+   "OS": {
+    "name": "OS",
+    "jsonName": "os",
+    "omitempty": true,
+    "goType": "*v1.PodOS",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Overhead": {
+    "name": "Overhead",
+    "jsonName": "overhead",
+    "omitempty": true,
+    "goType": "v1.ResourceList",
+    "kind": "map",
+    "zeroWire": "absent"
+   },
+   "PreemptionPolicy": {
+    "name": "PreemptionPolicy",
+    "jsonName": "preemptionPolicy",
+    "omitempty": true,
+    "goType": "*v1.PreemptionPolicy",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Priority": {
+    "name": "Priority",
+    "jsonName": "priority",
+    "omitempty": true,
+    "goType": "*int32",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "PriorityClassName": {
+    "name": "PriorityClassName",
+    "jsonName": "priorityClassName",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "ReadinessGates": {
+    "name": "ReadinessGates",
+    "jsonName": "readinessGates",
+    "omitempty": true,
+    "goType": "[]v1.PodReadinessGate",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "ResourceClaims": {
+    "name": "ResourceClaims",
+    "jsonName": "resourceClaims",
+    "omitempty": true,
+    "goType": "[]v1.PodResourceClaim",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "Resources": {
+    "name": "Resources",
+    "jsonName": "resources",
+    "omitempty": true,
+    "goType": "*v1.ResourceRequirements",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "RestartPolicy": {
+    "name": "RestartPolicy",
+    "jsonName": "restartPolicy",
+    "omitempty": true,
+    "goType": "v1.RestartPolicy",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "RuntimeClassName": {
+    "name": "RuntimeClassName",
+    "jsonName": "runtimeClassName",
+    "omitempty": true,
+    "goType": "*string",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "SchedulerName": {
+    "name": "SchedulerName",
+    "jsonName": "schedulerName",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "SchedulingGates": {
+    "name": "SchedulingGates",
+    "jsonName": "schedulingGates",
+    "omitempty": true,
+    "goType": "[]v1.PodSchedulingGate",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "SecurityContext": {
+    "name": "SecurityContext",
+    "jsonName": "securityContext",
+    "omitempty": true,
+    "goType": "*v1.PodSecurityContext",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "ServiceAccountName": {
+    "name": "ServiceAccountName",
+    "jsonName": "serviceAccountName",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "SetHostnameAsFQDN": {
+    "name": "SetHostnameAsFQDN",
+    "jsonName": "setHostnameAsFQDN",
+    "omitempty": true,
+    "goType": "*bool",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "ShareProcessNamespace": {
+    "name": "ShareProcessNamespace",
+    "jsonName": "shareProcessNamespace",
+    "omitempty": true,
+    "goType": "*bool",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Subdomain": {
+    "name": "Subdomain",
+    "jsonName": "subdomain",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "TerminationGracePeriodSeconds": {
+    "name": "TerminationGracePeriodSeconds",
+    "jsonName": "terminationGracePeriodSeconds",
+    "omitempty": true,
+    "goType": "*int64",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Tolerations": {
+    "name": "Tolerations",
+    "jsonName": "tolerations",
+    "omitempty": true,
+    "goType": "[]v1.Toleration",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "TopologySpreadConstraints": {
+    "name": "TopologySpreadConstraints",
+    "jsonName": "topologySpreadConstraints",
+    "omitempty": true,
+    "goType": "[]v1.TopologySpreadConstraint",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "Volumes": {
+    "name": "Volumes",
+    "jsonName": "volumes",
+    "omitempty": true,
+    "goType": "[]v1.Volume",
+    "kind": "slice",
+    "zeroWire": "absent"
+   }
+  },
+  "zeroMarshal": "{\"containers\":null}"
+ },
+ "v1.ServiceSpec": {
+  "fields": {
+   "AllocateLoadBalancerNodePorts": {
+    "name": "AllocateLoadBalancerNodePorts",
+    "jsonName": "allocateLoadBalancerNodePorts",
+    "omitempty": true,
+    "goType": "*bool",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "ClusterIP": {
+    "name": "ClusterIP",
+    "jsonName": "clusterIP",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "ClusterIPs": {
+    "name": "ClusterIPs",
+    "jsonName": "clusterIPs",
+    "omitempty": true,
+    "goType": "[]string",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "ExternalIPs": {
+    "name": "ExternalIPs",
+    "jsonName": "externalIPs",
+    "omitempty": true,
+    "goType": "[]string",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "ExternalName": {
+    "name": "ExternalName",
+    "jsonName": "externalName",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "ExternalTrafficPolicy": {
+    "name": "ExternalTrafficPolicy",
+    "jsonName": "externalTrafficPolicy",
+    "omitempty": true,
+    "goType": "v1.ServiceExternalTrafficPolicy",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "HealthCheckNodePort": {
+    "name": "HealthCheckNodePort",
+    "jsonName": "healthCheckNodePort",
+    "omitempty": true,
+    "goType": "int32",
+    "kind": "int32",
+    "zeroWire": "absent"
+   },
+   "IPFamilies": {
+    "name": "IPFamilies",
+    "jsonName": "ipFamilies",
+    "omitempty": true,
+    "goType": "[]v1.IPFamily",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "IPFamilyPolicy": {
+    "name": "IPFamilyPolicy",
+    "jsonName": "ipFamilyPolicy",
+    "omitempty": true,
+    "goType": "*v1.IPFamilyPolicy",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "InternalTrafficPolicy": {
+    "name": "InternalTrafficPolicy",
+    "jsonName": "internalTrafficPolicy",
+    "omitempty": true,
+    "goType": "*v1.ServiceInternalTrafficPolicy",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "LoadBalancerClass": {
+    "name": "LoadBalancerClass",
+    "jsonName": "loadBalancerClass",
+    "omitempty": true,
+    "goType": "*string",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "LoadBalancerIP": {
+    "name": "LoadBalancerIP",
+    "jsonName": "loadBalancerIP",
+    "omitempty": true,
+    "goType": "string",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "LoadBalancerSourceRanges": {
+    "name": "LoadBalancerSourceRanges",
+    "jsonName": "loadBalancerSourceRanges",
+    "omitempty": true,
+    "goType": "[]string",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "Ports": {
+    "name": "Ports",
+    "jsonName": "ports",
+    "omitempty": true,
+    "goType": "[]v1.ServicePort",
+    "kind": "slice",
+    "zeroWire": "absent"
+   },
+   "PublishNotReadyAddresses": {
+    "name": "PublishNotReadyAddresses",
+    "jsonName": "publishNotReadyAddresses",
+    "omitempty": true,
+    "goType": "bool",
+    "kind": "bool",
+    "zeroWire": "absent"
+   },
+   "Selector": {
+    "name": "Selector",
+    "jsonName": "selector",
+    "omitempty": true,
+    "goType": "map[string]string",
+    "kind": "map",
+    "zeroWire": "absent"
+   },
+   "SessionAffinity": {
+    "name": "SessionAffinity",
+    "jsonName": "sessionAffinity",
+    "omitempty": true,
+    "goType": "v1.ServiceAffinity",
+    "kind": "string",
+    "zeroWire": "absent"
+   },
+   "SessionAffinityConfig": {
+    "name": "SessionAffinityConfig",
+    "jsonName": "sessionAffinityConfig",
+    "omitempty": true,
+    "goType": "*v1.SessionAffinityConfig",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "TrafficDistribution": {
+    "name": "TrafficDistribution",
+    "jsonName": "trafficDistribution",
+    "omitempty": true,
+    "goType": "*string",
+    "kind": "ptr",
+    "zeroWire": "absent"
+   },
+   "Type": {
+    "name": "Type",
+    "jsonName": "type",
+    "omitempty": true,
+    "goType": "v1.ServiceType",
+    "kind": "string",
+    "zeroWire": "absent"
+   }
+  },
+  "zeroMarshal": "{}"
+ }
+}

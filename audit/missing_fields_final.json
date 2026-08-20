@@ -1,0 +1,240 @@
+[
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "ResizePolicy",
+  "json": "resizePolicy",
+  "go_type": "[]ContainerResizePolicy"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "RestartPolicy",
+  "json": "restartPolicy",
+  "go_type": "*ContainerRestartPolicy"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "RestartPolicyRules",
+  "json": "restartPolicyRules",
+  "go_type": "[]ContainerRestartRule"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "TerminationMessagePath",
+  "json": "terminationMessagePath",
+  "go_type": "string"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "TerminationMessagePolicy",
+  "json": "terminationMessagePolicy",
+  "go_type": "TerminationMessagePolicy"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "Stdin",
+  "json": "stdin",
+  "go_type": "bool"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "StdinOnce",
+  "json": "stdinOnce",
+  "go_type": "bool"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "EphemeralContainerCommon",
+  "field": "TTY",
+  "json": "tty",
+  "go_type": "bool"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "ServiceSpec",
+  "field": "ExternalIPs",
+  "json": "externalIPs",
+  "go_type": "[]string"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "PreferAvoidPodsEntry",
+  "field": "EvictionTime",
+  "json": "evictionTime",
+  "go_type": "metav1.Time"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "PreferAvoidPodsEntry",
+  "field": "Reason",
+  "json": "reason",
+  "go_type": "string"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "PreferAvoidPodsEntry",
+  "field": "Message",
+  "json": "message",
+  "go_type": "string"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "PodSignature",
+  "field": "PodController",
+  "json": "podController",
+  "go_type": "*metav1.OwnerReference"
+ },
+ {
+  "gv": "core/v1",
+  "struct": "PodLogOptions",
+  "field": "InsecureSkipTLSVerifyBackend",
+  "json": "insecureSkipTLSVerifyBackend",
+  "go_type": "bool"
+ },
+ {
+  "gv": "admissionregistration/v1",
+  "struct": "Validation",
+  "field": "Reason",
+  "json": "reason",
+  "go_type": "*metav1.StatusReason"
+ },
+ {
+  "gv": "admissionregistration/v1alpha1",
+  "struct": "Validation",
+  "field": "Reason",
+  "json": "reason",
+  "go_type": "*metav1.StatusReason"
+ },
+ {
+  "gv": "resource/v1",
+  "struct": "DeviceConstraint",
+  "field": "DistinctAttribute",
+  "json": "distinctAttribute",
+  "go_type": "*FullyQualifiedName"
+ },
+ {
+  "gv": "resource/v1",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "AdminAccess",
+  "json": "adminAccess",
+  "go_type": "*bool"
+ },
+ {
+  "gv": "resource/v1",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "BindingConditions",
+  "json": "bindingConditions",
+  "go_type": "[]string"
+ },
+ {
+  "gv": "resource/v1",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "BindingFailureConditions",
+  "json": "bindingFailureConditions",
+  "go_type": "[]string"
+ },
+ {
+  "gv": "resource/v1",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "ShareID",
+  "json": "shareID",
+  "go_type": "*types.UID"
+ },
+ {
+  "gv": "resource/v1",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "ConsumedCapacity",
+  "json": "consumedCapacity",
+  "go_type": "map[QualifiedName]resource.Quantity"
+ },
+ {
+  "gv": "resource/v1",
+  "struct": "AllocatedDeviceStatus",
+  "field": "ShareID",
+  "json": "shareID",
+  "go_type": "*string"
+ },
+ {
+  "gv": "resource/v1beta2",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "AdminAccess",
+  "json": "adminAccess",
+  "go_type": "*bool"
+ },
+ {
+  "gv": "resource/v1beta2",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "BindingConditions",
+  "json": "bindingConditions",
+  "go_type": "[]string"
+ },
+ {
+  "gv": "resource/v1beta2",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "BindingFailureConditions",
+  "json": "bindingFailureConditions",
+  "go_type": "[]string"
+ },
+ {
+  "gv": "resource/v1beta2",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "ShareID",
+  "json": "shareID",
+  "go_type": "*types.UID"
+ },
+ {
+  "gv": "resource/v1beta2",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "ConsumedCapacity",
+  "json": "consumedCapacity",
+  "go_type": "map[QualifiedName]resource.Quantity"
+ },
+ {
+  "gv": "resource/v1beta2",
+  "struct": "AllocatedDeviceStatus",
+  "field": "ShareID",
+  "json": "shareID",
+  "go_type": "*string"
+ },
+ {
+  "gv": "resource/v1beta1",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "ShareID",
+  "json": "shareID",
+  "go_type": "*types.UID"
+ },
+ {
+  "gv": "resource/v1beta1",
+  "struct": "DeviceRequestAllocationResult",
+  "field": "ConsumedCapacity",
+  "json": "consumedCapacity",
+  "go_type": "map[QualifiedName]resource.Quantity"
+ },
+ {
+  "gv": "resource/v1beta1",
+  "struct": "AllocatedDeviceStatus",
+  "field": "ShareID",
+  "json": "shareID",
+  "go_type": "*string"
+ },
+ {
+  "gv": "apiextensions/v1",
+  "struct": "ConversionRequest",
+  "field": "DesiredAPIVersion",
+  "json": "desiredAPIVersion",
+  "go_type": "string"
+ },
+ {
+  "gv": "apiextensions/v1beta1",
+  "struct": "ConversionRequest",
+  "field": "DesiredAPIVersion",
+  "json": "desiredAPIVersion",
+  "go_type": "string"
+ }
+]
